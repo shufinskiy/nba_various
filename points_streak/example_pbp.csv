@@ -1,0 +1,444 @@
+GAME_ID,EVENTNUM,EVENTMSGTYPE,EVENTMSGACTIONTYPE,PERIOD,WCTIMESTRING,PCTIMESTRING,HOMEDESCRIPTION,NEUTRALDESCRIPTION,VISITORDESCRIPTION,SCORE,SCOREMARGIN,PERSON1TYPE,PLAYER1_ID,PLAYER1_NAME,PLAYER1_TEAM_ID,PLAYER1_TEAM_CITY,PLAYER1_TEAM_NICKNAME,PLAYER1_TEAM_ABBREVIATION,PERSON2TYPE,PLAYER2_ID,PLAYER2_NAME,PLAYER2_TEAM_ID,PLAYER2_TEAM_CITY,PLAYER2_TEAM_NICKNAME,PLAYER2_TEAM_ABBREVIATION,PERSON3TYPE,PLAYER3_ID,PLAYER3_NAME,PLAYER3_TEAM_ID,PLAYER3_TEAM_CITY,PLAYER3_TEAM_NICKNAME,PLAYER3_TEAM_ABBREVIATION,VIDEO_AVAILABLE_FLAG
+0042100313,2,12,0,1,9:03 PM,12:00,,Start of 1st Period (9:03 PM EST),,,,0,0,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,4,10,0,1,9:03 PM,12:00,Jump Ball Powell vs. Looney: Tip to Doncic,,,,,4,203939,Dwight Powell,1610612742.0,Dallas,Mavericks,DAL,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,1
+0042100313,7,5,1,1,9:03 PM,11:41,Doncic Bad Pass Turnover (P1.T1),,Looney STEAL (1 STL),,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,9,2,80,1,9:04 PM,11:26,,,MISS Wiggins 16' Step Back Jump Shot,,,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,10,4,0,1,9:04 PM,11:23,Doncic REBOUND (Off:0 Def:1),,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,11,6,2,1,9:04 PM,11:09,,,Thompson S.FOUL (P1.T1) (J.Tiven),,,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,1,0,,,,,,1
+0042100313,13,3,11,1,9:04 PM,11:09,MISS Doncic Free Throw 1 of 2,,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,14,4,1,1,9:04 PM,11:09,MAVERICKS Rebound,,,,,2,1610612742,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,15,3,12,1,9:05 PM,11:09,Doncic Free Throw 2 of 2 (1 PTS),,,0 - 1,1,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,16,1,98,1,9:05 PM,10:56,,,Looney 1' Cutting Layup Shot (2 PTS) (Curry 1 AST),2 - 1,-1,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,18,1,6,1,9:05 PM,10:45,Doncic 2' Driving Layup (3 PTS),,,2 - 3,1,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,19,6,2,1,9:05 PM,10:31,Powell S.FOUL (P1.T1) (J.Tiven),,,,,4,203939,Dwight Powell,1610612742.0,Dallas,Mavericks,DAL,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,1,0,,,,,,1
+0042100313,21,3,11,1,9:06 PM,10:31,,,Thompson Free Throw 1 of 2 (1 PTS),3 - 3,TIE,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,22,3,12,1,9:06 PM,10:31,,,Thompson Free Throw 2 of 2 (2 PTS),4 - 3,-1,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,23,2,79,1,9:06 PM,10:21,MISS Brunson 25' 3PT Pullup Jump Shot,,,,,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,24,4,0,1,9:07 PM,10:17,,,Thompson REBOUND (Off:0 Def:1),,,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,25,1,98,1,9:07 PM,10:07,,,Looney 3' Cutting Layup Shot (4 PTS) (Curry 2 AST),6 - 3,-3,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,27,1,44,1,9:07 PM,9:55,Powell Reverse Layup (2 PTS) (Finney-Smith 1 AST),,,6 - 5,-1,4,203939,Dwight Powell,1610612742.0,Dallas,Mavericks,DAL,4,1627827,Dorian Finney-Smith,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,1
+0042100313,29,2,63,1,9:07 PM,9:40,,,MISS Thompson 10' Fadeaway Jumper,,,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,30,4,0,1,9:07 PM,9:37,,,Looney REBOUND (Off:1 Def:0),,,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,31,2,97,1,9:07 PM,9:37,,,MISS Looney Tip Layup Shot,,,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,32,4,0,1,9:07 PM,9:36,,,Curry REBOUND (Off:1 Def:0),,,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,33,1,1,1,9:07 PM,9:33,,,Wiggins 25' 3PT Jump Shot (3 PTS) (Thompson 1 AST),9 - 5,-4,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,35,6,2,1,9:08 PM,9:21,,,Wiggins S.FOUL (P1.T2) (T.Ford),,,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,1,0,,,,,,1
+0042100313,37,3,11,1,9:08 PM,9:21,Doncic Free Throw 1 of 2 (4 PTS),,,9 - 6,-3,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,38,3,12,1,9:08 PM,9:21,Doncic Free Throw 2 of 2 (5 PTS),,,9 - 7,-2,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,39,5,4,1,9:09 PM,9:06,,,Green Traveling Turnover (P1.T1),,,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1,0,,,,,,1
+0042100313,40,2,1,1,9:09 PM,8:57,MISS Bullock 25' 3PT Jump Shot,,,,,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,41,4,0,1,9:09 PM,8:53,,,Green REBOUND (Off:0 Def:1),,,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,42,1,41,1,9:09 PM,8:49,,,Curry 1' Running Layup (2 PTS),11 - 7,-4,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,43,6,2,1,9:09 PM,8:49,Powell S.FOUL (P2.T2) (T.Ford),,,,,4,203939,Dwight Powell,1610612742.0,Dallas,Mavericks,DAL,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,1,0,,,,,,1
+0042100313,45,8,0,1,9:09 PM,8:49,SUB: Kleber FOR Powell,,,,,4,203939,Dwight Powell,1610612742.0,Dallas,Mavericks,DAL,4,1628467,Maxi Kleber,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0
+0042100313,47,3,10,1,9:10 PM,8:49,,,Curry Free Throw 1 of 1 (3 PTS),12 - 7,-5,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,49,2,1,1,9:11 PM,8:23,MISS Bullock 3PT Jump Shot,,,,,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,50,4,0,1,9:11 PM,8:21,,,Wiggins REBOUND (Off:0 Def:1),,,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,51,1,79,1,9:11 PM,8:14,,,Thompson 18' Pullup Jump Shot (4 PTS) (Wiggins 1 AST),14 - 7,-7,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,53,2,1,1,9:11 PM,7:56,MISS Bullock 3PT Jump Shot,,,,,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,54,4,0,1,9:11 PM,7:52,,,Looney REBOUND (Off:1 Def:1),,,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,55,2,79,1,9:11 PM,7:45,,,MISS Curry 26' 3PT Pullup Jump Shot,,,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,56,4,0,1,9:11 PM,7:43,Doncic REBOUND (Off:0 Def:2),,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,57,2,1,1,9:12 PM,7:35,MISS Brunson 25' 3PT Jump Shot,,,,,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,58,4,0,1,9:12 PM,7:31,,,Wiggins REBOUND (Off:0 Def:2),,,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,59,2,1,1,9:12 PM,7:19,,,MISS Wiggins 24' 3PT Jump Shot,,,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,60,4,0,1,9:12 PM,7:16,Doncic REBOUND (Off:0 Def:3),,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,61,2,79,1,9:12 PM,7:10,MISS Doncic 27' 3PT Pullup Jump Shot,,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,62,4,0,1,9:12 PM,7:07,,,Wiggins REBOUND (Off:0 Def:3),,,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,63,6,2,1,9:12 PM,7:05,Finney-Smith S.FOUL (P1.T3) (M.Davis),,,,,4,1627827,Dorian Finney-Smith,1610612742.0,Dallas,Mavericks,DAL,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,1,0,,,,,,1
+0042100313,65,3,11,1,9:13 PM,7:05,,,Thompson Free Throw 1 of 2 (5 PTS),15 - 7,-8,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,66,3,12,1,9:13 PM,7:05,,,Thompson Free Throw 2 of 2 (6 PTS),16 - 7,-9,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,67,6,17,1,9:13 PM,6:47,,,Warriors T.Foul (Def. 3 Sec Looney ) (M.Davis),,,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1,0,,,,,,1
+0042100313,68,9,1,1,9:13 PM,6:47,MAVERICKS Timeout: Regular (Full 1 Short 0),,,,,2,1610612742,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,69,3,16,1,9:17 PM,6:47,MISS Bullock Free Throw Technical,,,,,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,0
+0042100313,70,4,1,1,9:17 PM,6:47,MAVERICKS Rebound,,,,,2,1610612742,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,71,2,1,1,9:17 PM,6:39,MISS Finney-Smith 3PT Jump Shot,,,,,4,1627827,Dorian Finney-Smith,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,72,4,0,1,9:18 PM,6:37,,,Green REBOUND (Off:0 Def:2),,,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,73,1,79,1,9:18 PM,6:26,,,Curry 24' 3PT Pullup Jump Shot (6 PTS) (Looney 1 AST),19 - 7,-12,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,75,2,101,1,9:18 PM,6:07,MISS Brunson 8' Driving Floating Jump Shot,,,,,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,76,4,0,1,9:18 PM,6:05,Finney-Smith REBOUND (Off:1 Def:0),,,,,4,1627827,Dorian Finney-Smith,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,77,1,102,1,9:18 PM,6:01,Doncic 8' Driving Floating Bank Jump Shot (7 PTS) (Finney-Smith 2 AST),,,19 - 9,-10,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,4,1627827,Dorian Finney-Smith,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,1
+0042100313,79,2,1,1,9:18 PM,5:49,,,MISS Thompson 25' 3PT Jump Shot,,,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,80,4,0,1,9:18 PM,5:48,Brunson REBOUND (Off:0 Def:1),,,,,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,81,1,98,1,9:19 PM,5:36,Finney-Smith 1' Cutting Layup Shot (2 PTS) (Doncic 1 AST),,,19 - 11,-8,4,1627827,Dorian Finney-Smith,1610612742.0,Dallas,Mavericks,DAL,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,1
+0042100313,83,1,43,1,9:19 PM,5:19,,,Wiggins 1' Alley Oop Layup (5 PTS) (Green 1 AST),21 - 11,-10,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,85,1,1,1,9:19 PM,5:06,Brunson 25' 3PT Jump Shot (3 PTS) (Bullock 1 AST),,,21 - 14,-7,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,1
+0042100313,87,2,79,1,9:19 PM,4:58,,,MISS Curry 28' 3PT Pullup Jump Shot,,,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,88,4,0,1,9:19 PM,4:56,Brunson REBOUND (Off:0 Def:2),,,,,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,89,2,1,1,9:19 PM,4:41,MISS Kleber 25' 3PT Jump Shot,,,,,4,1628467,Maxi Kleber,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,90,4,0,1,9:20 PM,4:38,,,Curry REBOUND (Off:1 Def:1),,,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,91,5,1,1,9:20 PM,4:32,Bullock STEAL (1 STL),,Green Bad Pass Turnover (P2.T2),,,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,1
+0042100313,93,2,102,1,9:20 PM,4:24,MISS Doncic 4' Driving Floating Bank Jump Shot,,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,94,4,0,1,9:20 PM,4:22,,,Thompson REBOUND (Off:0 Def:2),,,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,95,2,41,1,9:20 PM,4:18,,,MISS Green 4' Running Layup,,,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,96,4,0,1,9:20 PM,4:16,Brunson REBOUND (Off:0 Def:3),,,,,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,97,5,1,1,9:20 PM,4:03,Finney-Smith Bad Pass Turnover (P1.T2),,Green STEAL (1 STL),,,4,1627827,Dorian Finney-Smith,1610612742.0,Dallas,Mavericks,DAL,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,99,6,28,1,9:20 PM,4:00,Brunson Personal Take Foul (P1.T4) (J.Tiven),,,,,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,1,0,,,,,,1
+0042100313,101,9,1,1,9:20 PM,4:00,,,Warriors Timeout: Regular (Reg.1 Short 0),,,3,1610612744,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,102,8,0,1,9:23 PM,4:00,SUB: Dinwiddie FOR Brunson,,,,,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0
+0042100313,103,8,0,1,9:23 PM,4:00,SUB: Ntilikina FOR Bullock,,,,,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,4,1628373,Frank Ntilikina,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0
+0042100313,104,8,0,1,9:23 PM,4:00,,,SUB: Poole FOR Looney,,,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,5,1629673,Jordan Poole,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0
+0042100313,105,8,0,1,9:23 PM,4:00,,,SUB: Porter Jr. FOR Thompson,,,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,5,203490,Otto Porter Jr.,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0
+0042100313,110,2,1,1,9:24 PM,3:50,,,MISS Green 21' Jump Shot,,,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,111,4,0,1,9:24 PM,3:48,Doncic REBOUND (Off:0 Def:4),,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,112,2,1,1,9:25 PM,3:28,MISS Ntilikina 3PT Jump Shot,,,,,4,1628373,Frank Ntilikina,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,113,4,0,1,9:25 PM,3:25,,,Green REBOUND (Off:0 Def:3),,,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,114,2,78,1,9:25 PM,3:15,,,MISS Green 8' Floating Jump Shot,,,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,115,4,0,1,9:25 PM,3:12,,,Wiggins REBOUND (Off:1 Def:3),,,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,116,1,97,1,9:25 PM,3:11,,,Wiggins Tip Layup Shot (7 PTS),23 - 14,-9,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,117,2,1,1,9:25 PM,2:53,MISS Kleber 25' 3PT Jump Shot,,,,,4,1628467,Maxi Kleber,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,118,4,0,1,9:25 PM,2:50,,,Curry REBOUND (Off:1 Def:2),,,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,119,2,1,1,9:25 PM,2:47,,,MISS Curry 30' 3PT Jump Shot,,,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,120,4,0,1,9:25 PM,2:43,Doncic REBOUND (Off:0 Def:5),,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,121,6,1,1,9:26 PM,2:36,,,Curry P.FOUL (P1.T3) (T.Ford),,,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,4,1628467,Maxi Kleber,1610612742.0,Dallas,Mavericks,DAL,1,0,,,,,,1
+0042100313,123,8,0,1,9:26 PM,2:36,SUB: Bullock FOR Finney-Smith,,,,,4,1627827,Dorian Finney-Smith,1610612742.0,Dallas,Mavericks,DAL,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0
+0042100313,125,2,47,1,9:26 PM,2:25,MISS Doncic 8' Turnaround Jump Shot,,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,126,4,0,1,9:26 PM,2:23,,,Porter Jr. REBOUND (Off:0 Def:1),,,5,203490,Otto Porter Jr.,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,127,2,1,1,9:26 PM,2:18,,,MISS Wiggins 24' 3PT Jump Shot,,,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,128,4,0,1,9:27 PM,2:14,Kleber REBOUND (Off:0 Def:1),,,,,4,1628467,Maxi Kleber,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,129,1,1,1,9:27 PM,2:01,Dinwiddie 25' 3PT Jump Shot (3 PTS) (Ntilikina 1 AST),,,23 - 17,-6,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,4,1628373,Frank Ntilikina,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,1
+0042100313,131,5,11,1,9:27 PM,1:34,,,Warriors Turnover: Shot Clock (T#3),,,3,1610612744,,,,,,0,0,,,,,,1,0,,,,,,0
+0042100313,132,8,0,1,9:27 PM,1:34,,,SUB: Looney FOR Green,,,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0
+0042100313,134,7,5,1,9:28 PM,1:22,,,Wiggins Violation:Kicked Ball (T.Ford),,,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1,0,,,,,,0
+0042100313,135,2,1,1,9:28 PM,1:11,MISS Dinwiddie 26' 3PT Jump Shot,,,,,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,136,4,0,1,9:28 PM,1:08,,,Curry REBOUND (Off:1 Def:3),,,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,137,1,73,1,9:28 PM,1:01,,,Curry 1' Driving Reverse Layup (8 PTS),25 - 17,-8,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,138,1,76,1,9:28 PM,0:55,Dinwiddie 2' Running Finger Roll Layup (5 PTS),,,25 - 19,-6,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,139,2,79,1,9:29 PM,0:44,,,MISS Poole 25' 3PT Pullup Jump Shot,,,5,1629673,Jordan Poole,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,140,4,0,1,9:29 PM,0:41,Doncic REBOUND (Off:0 Def:6),,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,141,6,1,1,9:29 PM,0:34,,,Wiggins P.FOUL (P2.T4) (T.Ford),,,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,1,0,,,,,,1
+0042100313,143,8,0,1,9:29 PM,0:34,,,SUB: Green FOR Wiggins,,,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0
+0042100313,145,2,105,1,9:29 PM,0:27,MISS Bullock 3' Turnaround Fadeaway Bank Jump Shot,,,,,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,146,4,0,1,9:29 PM,0:25,,,Looney REBOUND (Off:1 Def:2),,,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,147,2,79,1,9:30 PM,0:07,,,MISS Curry 31' 3PT Pullup Jump Shot,,,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,148,4,0,1,9:30 PM,0:03,Bullock REBOUND (Off:0 Def:1),,,,,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,149,1,79,1,9:30 PM,0:00,Doncic 32' 3PT Pullup Jump Shot (10 PTS),,,25 - 22,-3,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,150,13,0,1,9:30 PM,0:00,,End of 1st Period (9:30 PM EST),,25 - 22,-3,0,0,,,,,,0,0,,,,,,0,0,,,,,,1
+0042100313,151,18,0,1,9:30 PM,0:00,,Instant Replay1st Period (9:30 PM EST),,25 - 22,-3,0,149,Michael Adams,,,,,0,0,,,,,,1,0,,,,,,0
+0042100313,162,12,0,2,9:34 PM,12:00,,Start of 2nd Period (9:34 PM EST),,25 - 22,-3,0,0,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,163,2,1,2,9:34 PM,11:41,,,MISS Moody 25' 3PT Jump Shot,,,5,1630541,Moses Moody,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,0
+0042100313,164,4,0,2,9:34 PM,11:34,Dinwiddie REBOUND (Off:0 Def:1),,,,,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,0
+0042100313,165,1,6,2,9:34 PM,11:26,Dinwiddie 1' Driving Layup (7 PTS) (Bullock 2 AST),,,25 - 24,-1,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,1
+0042100313,166,2,80,2,9:34 PM,11:09,,,MISS Thompson 25' 3PT Step Back Jump Shot,,,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,167,4,0,2,9:34 PM,11:07,Dinwiddie REBOUND (Off:0 Def:2),,,,,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,168,6,2,2,9:35 PM,11:05,,,Poole S.FOUL (P1.T1) (J.Tiven),,,5,1629673,Jordan Poole,1610612744.0,Golden State,Warriors,GSW,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,1,0,,,,,,1
+0042100313,170,3,11,2,9:35 PM,11:05,Dinwiddie Free Throw 1 of 2 (8 PTS),,,25 - 25,TIE,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,171,3,12,2,9:35 PM,11:05,Dinwiddie Free Throw 2 of 2 (9 PTS),,,25 - 26,1,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,173,2,79,2,9:36 PM,10:48,,,MISS Porter Jr. 16' Pullup Jump Shot,,,5,203490,Otto Porter Jr.,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,174,4,0,2,9:36 PM,10:43,,,Looney REBOUND (Off:2 Def:2),,,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,175,2,1,2,9:36 PM,10:37,,,MISS Thompson 3PT Jump Shot,,,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,176,4,0,2,9:36 PM,10:33,,,Warriors Rebound,,,3,1610612744,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,178,1,98,2,9:36 PM,10:29,,,Porter Jr. 1' Cutting Layup Shot (2 PTS) (Looney 2 AST),27 - 26,-1,5,203490,Otto Porter Jr.,1610612744.0,Golden State,Warriors,GSW,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,180,6,2,2,9:37 PM,10:14,,,Poole S.FOUL (P2.T2) (T.Ford),,,5,1629673,Jordan Poole,1610612744.0,Golden State,Warriors,GSW,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,1,0,,,,,,1
+0042100313,182,3,11,2,9:37 PM,10:14,Brunson Free Throw 1 of 2 (4 PTS),,,27 - 27,TIE,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,183,3,12,2,9:37 PM,10:14,MISS Brunson Free Throw 2 of 2,,,,,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,184,4,0,2,9:37 PM,10:12,Finney-Smith REBOUND (Off:2 Def:0),,,,,4,1627827,Dorian Finney-Smith,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,185,2,1,2,9:38 PM,10:09,MISS Brunson 25' 3PT Jump Shot,,,,,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,186,4,0,2,9:38 PM,10:05,,,Thompson REBOUND (Off:0 Def:3),,,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,187,6,2,2,9:38 PM,10:01,Bertans S.FOUL (P1.T1) (T.Ford),,,,,4,202722,Davis Bertans,1610612742.0,Dallas,Mavericks,DAL,5,1629673,Jordan Poole,1610612744.0,Golden State,Warriors,GSW,1,0,,,,,,1
+0042100313,189,3,11,2,9:38 PM,10:01,,,Poole Free Throw 1 of 2 (1 PTS),28 - 27,-1,5,1629673,Jordan Poole,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,190,3,12,2,9:39 PM,10:01,,,Poole Free Throw 2 of 2 (2 PTS),29 - 27,-2,5,1629673,Jordan Poole,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,191,1,1,2,9:39 PM,9:38,Brunson 25' 3PT Jump Shot (7 PTS) (Finney-Smith 3 AST),,,29 - 30,1,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,4,1627827,Dorian Finney-Smith,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,1
+0042100313,193,5,11,2,9:40 PM,9:11,,,Warriors Turnover: Shot Clock (T#4),,,3,1610612744,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,194,9,1,2,9:40 PM,9:11,,,Warriors Timeout: Regular (Reg.2 Short 0),,,3,1610612744,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,195,8,0,2,9:40 PM,9:11,,,SUB: Toscano-Anderson FOR Porter Jr.,,,5,203490,Otto Porter Jr.,1610612744.0,Golden State,Warriors,GSW,5,1629308,Juan Toscano-Anderson,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0
+0042100313,197,2,1,2,9:44 PM,8:55,MISS Finney-Smith 25' 3PT Jump Shot,,,,,4,1627827,Dorian Finney-Smith,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,198,4,0,2,9:44 PM,8:52,,,Thompson REBOUND (Off:0 Def:4),,,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,199,5,1,2,9:44 PM,8:36,Bullock STEAL (2 STL),,Toscano-Anderson Bad Pass Turnover (P1.T5),,,5,1629308,Juan Toscano-Anderson,1610612744.0,Golden State,Warriors,GSW,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,1
+0042100313,201,6,2,2,9:44 PM,8:24,,,Moody S.FOUL (P1.T3) (J.Tiven),,,5,1630541,Moses Moody,1610612744.0,Golden State,Warriors,GSW,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,1,0,,,,,,1
+0042100313,203,3,11,2,9:45 PM,8:24,Dinwiddie Free Throw 1 of 2 (10 PTS),,,29 - 31,2,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,204,3,12,2,9:45 PM,8:24,Dinwiddie Free Throw 2 of 2 (11 PTS),,,29 - 32,3,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,205,5,2,2,9:45 PM,8:07,Bertans STEAL (1 STL),,Poole Lost Ball Turnover (P1.T6),,,5,1629673,Jordan Poole,1610612744.0,Golden State,Warriors,GSW,4,202722,Davis Bertans,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,1
+0042100313,207,2,1,2,9:46 PM,7:46,MISS Dinwiddie 25' 3PT Jump Shot,,,,,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,208,4,0,2,9:46 PM,7:44,,,Poole REBOUND (Off:0 Def:1),,,5,1629673,Jordan Poole,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,209,2,79,2,9:46 PM,7:37,,,MISS Thompson 18' Pullup Jump Shot,,,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,210,4,0,2,9:46 PM,7:35,,,Looney REBOUND (Off:3 Def:2),,,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,211,6,1,2,9:46 PM,7:35,Bertans P.FOUL (P2.T2) (M.Davis),,,,,4,202722,Davis Bertans,1610612742.0,Dallas,Mavericks,DAL,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,1,0,,,,,,1
+0042100313,213,2,1,2,9:46 PM,7:27,,,MISS Moody 3PT Jump Shot,,,5,1630541,Moses Moody,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,214,4,0,2,9:46 PM,7:24,,,Poole REBOUND (Off:1 Def:1),,,5,1629673,Jordan Poole,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,215,2,79,2,9:46 PM,7:22,,,MISS Thompson 19' Pullup Jump Shot,,,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,216,4,0,2,9:47 PM,7:18,Bullock REBOUND (Off:0 Def:2),,,,,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,217,6,1,2,9:47 PM,7:08,,,Poole P.FOUL (P3.T4) (T.Ford),,,5,1629673,Jordan Poole,1610612744.0,Golden State,Warriors,GSW,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,1,0,,,,,,1
+0042100313,219,1,6,2,9:47 PM,6:53,Brunson 1' Driving Layup (9 PTS),,,29 - 34,5,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,220,6,1,2,9:48 PM,6:40,Bullock P.FOUL (P1.T3) (M.Davis),,,,,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,5,1629673,Jordan Poole,1610612744.0,Golden State,Warriors,GSW,1,0,,,,,,1
+0042100313,222,8,0,2,9:48 PM,6:40,SUB: Doncic FOR Dinwiddie,,,,,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0
+0042100313,223,8,0,2,9:48 PM,6:40,SUB: Powell FOR Bertans,,,,,4,202722,Davis Bertans,1610612742.0,Dallas,Mavericks,DAL,4,203939,Dwight Powell,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0
+0042100313,224,8,0,2,9:48 PM,6:40,,,SUB: Curry FOR Poole,,,5,1629673,Jordan Poole,1610612744.0,Golden State,Warriors,GSW,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0
+0042100313,225,8,0,2,9:48 PM,6:40,,,SUB: Wiggins FOR Looney,,,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0
+0042100313,226,8,0,2,9:48 PM,6:40,,,SUB: Green FOR Thompson,,,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0
+0042100313,232,2,1,2,9:48 PM,6:28,,,MISS Moody 24' 3PT Jump Shot,,,5,1630541,Moses Moody,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,234,2,97,2,9:48 PM,6:23,,,MISS Wiggins Tip Layup Shot,,,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,233,4,0,2,9:48 PM,6:23,,,Wiggins REBOUND (Off:3 Def:3),,,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,235,4,0,2,9:48 PM,6:22,,,Wiggins REBOUND (Off:3 Def:3),,,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,236,1,97,2,9:48 PM,6:22,,,Wiggins Tip Layup Shot (9 PTS),31 - 34,3,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,238,1,1,2,9:49 PM,6:01,Finney-Smith 26' 3PT Jump Shot (5 PTS) (Brunson 1 AST),,,31 - 37,6,4,1627827,Dorian Finney-Smith,1610612742.0,Dallas,Mavericks,DAL,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,1
+0042100313,240,5,13,2,9:49 PM,5:51,,,Curry Backcourt Turnover (P1.T7),,,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1,0,,,,,,1
+0042100313,241,6,11,2,9:49 PM,5:51,,,Green T.FOUL (P0.T4) (M.Davis),,,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1,0,,,,,,1
+0042100313,242,3,16,2,9:50 PM,5:51,Doncic Free Throw Technical (11 PTS),,,31 - 38,7,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,243,6,1,2,9:50 PM,5:47,,,Green P.FOUL (P1.PN) (M.Davis),,,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,4,203939,Dwight Powell,1610612742.0,Dallas,Mavericks,DAL,1,0,,,,,,1
+0042100313,245,3,11,2,9:51 PM,5:47,MISS Powell Free Throw 1 of 2,,,,,4,203939,Dwight Powell,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,246,4,1,2,9:51 PM,5:47,MAVERICKS Rebound,,,,,2,1610612742,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,247,9,1,2,9:51 PM,5:47,,,Warriors Timeout: Regular (Reg.3 Short 0),,,3,1610612744,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,248,8,0,2,9:51 PM,5:47,SUB: Dinwiddie FOR Brunson,,,,,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0
+0042100313,250,3,12,2,9:55 PM,5:47,Powell Free Throw 2 of 2 (3 PTS),,,31 - 39,8,4,203939,Dwight Powell,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,251,1,75,2,9:55 PM,5:35,,,Curry 1' Driving Finger Roll Layup (10 PTS),33 - 39,6,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,252,6,2,2,9:55 PM,5:17,,,Green S.FOUL (P2.PN) (T.Ford),,,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,1,0,,,,,,1
+0042100313,254,3,11,2,9:56 PM,5:17,Doncic Free Throw 1 of 2 (12 PTS),,,33 - 40,7,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,255,3,12,2,9:56 PM,5:17,Doncic Free Throw 2 of 2 (13 PTS),,,33 - 41,8,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,256,5,1,2,9:56 PM,5:04,Doncic STEAL (1 STL),,Curry Bad Pass Turnover (P2.T8),,,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,1
+0042100313,258,2,1,2,9:57 PM,4:43,MISS Dinwiddie 27' 3PT Jump Shot,,,,,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,259,4,0,2,9:57 PM,4:40,Powell REBOUND (Off:1 Def:0),,,,,4,203939,Dwight Powell,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,260,2,1,2,9:57 PM,4:38,MISS Bullock 30' 3PT Jump Shot,,,,,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,261,4,0,2,9:57 PM,4:38,,,Warriors Rebound,,,3,1610612744,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,263,2,1,2,9:57 PM,4:21,,,MISS Wiggins 25' 3PT Jump Shot,,,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,264,4,0,2,9:57 PM,4:18,Doncic REBOUND (Off:0 Def:7),,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,265,6,4,2,9:58 PM,4:08,Doncic OFF.Foul (P1) (J.Tiven),,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,5,1629308,Juan Toscano-Anderson,1610612744.0,Golden State,Warriors,GSW,1,0,,,,,,1
+0042100313,267,5,37,2,9:58 PM,4:08,Doncic Offensive Foul Turnover (P2.T3),,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,1,0,,,,,,1
+0042100313,268,8,0,2,9:58 PM,4:08,SUB: Kleber FOR Powell,,,,,4,203939,Dwight Powell,1610612742.0,Dallas,Mavericks,DAL,4,1628467,Maxi Kleber,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0
+0042100313,269,8,0,2,9:58 PM,4:08,,,SUB: Thompson FOR Moody,,,5,1630541,Moses Moody,1610612744.0,Golden State,Warriors,GSW,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0
+0042100313,270,8,0,2,9:58 PM,4:08,,,SUB: Looney FOR Toscano-Anderson,,,5,1629308,Juan Toscano-Anderson,1610612744.0,Golden State,Warriors,GSW,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0
+0042100313,293,5,2,2,9:59 PM,3:58,,,Curry Lost Ball Turnover (P3.T9),,,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,0
+0042100313,299,6,3,2,9:59 PM,3:58,,,Curry L.B.FOUL (P2.PN) (M.Davis),,,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,4,1627827,Dorian Finney-Smith,1610612742.0,Dallas,Mavericks,DAL,1,0,,,,,,1
+0042100313,278,3,11,2,9:59 PM,3:58,MISS Finney-Smith Free Throw 1 of 2,,,,,4,1627827,Dorian Finney-Smith,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,279,4,1,2,9:59 PM,3:58,MAVERICKS Rebound,,,,,2,1610612742,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,280,3,12,2,9:59 PM,3:58,Finney-Smith Free Throw 2 of 2 (6 PTS),,,33 - 42,9,4,1627827,Dorian Finney-Smith,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,282,1,108,2,9:59 PM,3:45,,,Green 1' Cutting Dunk Shot (2 PTS) (Curry 3 AST),35 - 42,7,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,284,2,86,2,10:00 PM,3:24,MISS Doncic 9' Turnaround Fadeaway Shot,,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,285,4,0,2,10:00 PM,3:22,,,Looney REBOUND (Off:3 Def:3),,,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,286,1,1,2,10:00 PM,3:11,,,Curry 25' 3PT Jump Shot (13 PTS) (Wiggins 2 AST),38 - 42,4,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,288,2,80,2,10:00 PM,2:46,MISS Doncic 28' 3PT Step Back Jump Shot,,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,289,4,0,2,10:00 PM,2:45,,,Warriors Rebound,,,3,1610612744,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,291,1,98,2,10:01 PM,2:34,,,Wiggins 1' Cutting Layup Shot (11 PTS) (Curry 4 AST),40 - 42,2,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,294,2,102,2,10:01 PM,2:17,MISS Doncic 6' Driving Floating Bank Jump Shot,,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,295,4,0,2,10:01 PM,2:15,,,Looney REBOUND (Off:3 Def:4),,,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,296,1,1,2,10:01 PM,2:01,,,Curry 3PT Jump Shot (16 PTS) (Looney 3 AST),43 - 42,-1,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,298,9,1,2,10:01 PM,2:01,MAVERICKS Timeout: Regular (Full 2 Short 0),,,,,2,1610612742,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,301,8,0,2,10:03 PM,2:01,SUB: Brunson FOR Dinwiddie,,,,,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0
+0042100313,303,2,1,2,10:04 PM,1:44,MISS Finney-Smith 26' 3PT Jump Shot,,,,,4,1627827,Dorian Finney-Smith,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,304,4,0,2,10:04 PM,1:42,,,Warriors Rebound,,,3,1610612744,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,306,2,75,2,10:04 PM,1:30,,,MISS Curry 6' Driving Finger Roll Layup,,,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,307,4,0,2,10:04 PM,1:29,MAVERICKS Rebound,,,,,2,1610612742,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,309,6,1,2,10:04 PM,1:24,,,Curry P.FOUL (P3.PN) (T.Ford),,,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,1,0,,,,,,1
+0042100313,311,3,11,2,10:05 PM,1:24,Doncic Free Throw 1 of 2 (14 PTS),,,43 - 43,TIE,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,312,3,12,2,10:05 PM,1:24,Doncic Free Throw 2 of 2 (15 PTS),,,43 - 44,1,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,313,1,1,2,10:06 PM,1:06,,,Thompson 25' 3PT Jump Shot (9 PTS) (Curry 5 AST),46 - 44,-2,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,315,1,1,2,10:06 PM,0:45,Brunson 3PT Jump Shot (12 PTS) (Kleber 1 AST),,,46 - 47,1,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,4,1628467,Maxi Kleber,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,1
+0042100313,317,1,108,2,10:06 PM,0:28,,,Wiggins Cutting Dunk Shot (13 PTS) (Looney 4 AST),48 - 47,-1,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,319,2,1,2,10:07 PM,0:03,MISS Bullock 24' 3PT Jump Shot,,,,,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,320,4,0,2,10:07 PM,0:03,,,Looney REBOUND (Off:3 Def:5),,,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,321,13,0,2,10:07 PM,0:00,,End of 2nd Period (10:07 PM EST),,48 - 47,-1,0,0,,,,,,0,0,,,,,,0,0,,,,,,1
+0042100313,324,12,0,3,10:24 PM,12:00,,Start of 3rd Period (10:24 PM EST),,48 - 47,-1,0,0,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,325,1,58,3,10:24 PM,11:44,,,Wiggins 4' Turnaround Hook Shot (15 PTS) (Green 2 AST),50 - 47,-3,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,327,2,98,3,10:25 PM,11:27,MISS Finney-Smith 1' Cutting Layup Shot,,,,,4,1627827,Dorian Finney-Smith,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,328,4,0,3,10:25 PM,11:23,,,Looney REBOUND (Off:3 Def:6),,,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,329,2,1,3,10:25 PM,11:01,,,MISS Green 18' Jump Shot,,,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,330,4,0,3,10:25 PM,10:58,Powell REBOUND (Off:1 Def:1),,,,,4,203939,Dwight Powell,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,331,2,1,3,10:25 PM,10:46,MISS Doncic 25' 3PT Jump Shot,,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,332,4,0,3,10:25 PM,10:43,,,Thompson REBOUND (Off:0 Def:5),,,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,333,6,1,3,10:25 PM,10:36,Bullock P.FOUL (P2.T1) (T.Ford),,,,,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,1,0,,,,,,1
+0042100313,335,2,98,3,10:26 PM,10:30,,,MISS Thompson 3' Cutting Layup Shot,,,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,337,4,0,3,10:26 PM,10:27,Doncic REBOUND (Off:0 Def:8),,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,338,2,102,3,10:26 PM,10:22,MISS Doncic 8' Driving Floating Bank Jump Shot,,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,339,4,0,3,10:26 PM,10:20,,,Looney REBOUND (Off:3 Def:7),,,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,340,1,80,3,10:26 PM,10:12,,,Thompson 14' Step Back Jump Shot (11 PTS) (Curry 6 AST),52 - 47,-5,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,342,1,6,3,10:26 PM,9:56,Doncic 1' Driving Layup (17 PTS) (Bullock 3 AST),,,52 - 49,-3,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,1
+0042100313,343,1,79,3,10:27 PM,9:44,,,Curry 29' 3PT Pullup Jump Shot (19 PTS),55 - 49,-6,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,344,9,1,3,10:27 PM,9:44,MAVERICKS Timeout: Regular (Full 3 Short 0),,,,,2,1610612742,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,346,8,0,3,10:30 PM,9:44,SUB: Kleber FOR Powell,,,,,4,203939,Dwight Powell,1610612742.0,Dallas,Mavericks,DAL,4,1628467,Maxi Kleber,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0
+0042100313,348,6,2,3,10:31 PM,9:26,,,Green S.FOUL (P3.T1) (M.Davis),,,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,1,0,,,,,,1
+0042100313,350,3,11,3,10:31 PM,9:26,Brunson Free Throw 1 of 2 (13 PTS),,,55 - 50,-5,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,351,3,12,3,10:32 PM,9:26,Brunson Free Throw 2 of 2 (14 PTS),,,55 - 51,-4,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,352,6,11,3,10:32 PM,9:26,Finney-Smith T.FOUL (P1.T1) (M.Davis),,,,,4,1627827,Dorian Finney-Smith,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,1,0,,,,,,1
+0042100313,353,3,16,3,10:32 PM,9:26,,,Curry Free Throw Technical (20 PTS),56 - 51,-5,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,354,6,2,3,10:33 PM,9:12,Kleber S.FOUL (P1.T2) (T.Ford),,,,,4,1628467,Maxi Kleber,1610612742.0,Dallas,Mavericks,DAL,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,1,0,,,,,,1
+0042100313,356,3,11,3,10:33 PM,9:12,,,Looney Free Throw 1 of 2 (5 PTS),57 - 51,-6,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,357,3,12,3,10:33 PM,9:12,,,Looney Free Throw 2 of 2 (6 PTS),58 - 51,-7,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,358,7,5,3,10:34 PM,8:57,,,Wiggins Violation:Kicked Ball (M.Davis),,,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1,0,,,,,,0
+0042100313,359,2,1,3,10:34 PM,8:48,MISS Kleber 3PT Jump Shot,,,,,4,1628467,Maxi Kleber,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,360,4,0,3,10:34 PM,8:46,Kleber REBOUND (Off:1 Def:1),,,,,4,1628467,Maxi Kleber,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,361,1,63,3,10:34 PM,8:43,Doncic 11' Fadeaway Jumper (19 PTS) (Kleber 2 AST),,,58 - 53,-5,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,4,1628467,Maxi Kleber,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,1
+0042100313,363,6,2,3,10:34 PM,8:27,Doncic S.FOUL (P2.T3) (M.Davis),,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,1,0,,,,,,1
+0042100313,365,3,11,3,10:35 PM,8:27,,,MISS Looney Free Throw 1 of 2,,,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,366,4,1,3,10:35 PM,8:27,,,Warriors Rebound,,,3,1610612744,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,367,3,12,3,10:35 PM,8:27,,,Looney Free Throw 2 of 2 (7 PTS),59 - 53,-6,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,368,2,101,3,10:36 PM,8:04,MISS Bullock 9' Driving Floating Jump Shot,,Green BLOCK (1 BLK),,,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,1
+0042100313,370,4,0,3,10:36 PM,8:01,,,Thompson REBOUND (Off:0 Def:6),,,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,371,2,80,3,10:36 PM,7:49,,,MISS Wiggins 19' Step Back Jump Shot,,,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,372,4,0,3,10:36 PM,7:47,,,Looney REBOUND (Off:4 Def:7),,,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,373,2,1,3,10:36 PM,7:44,,,MISS Thompson 29' 3PT Jump Shot,,,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,374,4,0,3,10:36 PM,7:43,MAVERICKS Rebound,,,,,2,1610612742,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,376,2,1,3,10:37 PM,7:26,MISS Kleber 3PT Jump Shot,,,,,4,1628467,Maxi Kleber,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,377,4,0,3,10:37 PM,7:21,,,Looney REBOUND (Off:4 Def:8),,,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,378,5,45,3,10:37 PM,7:04,,,Looney Out of Bounds - Bad Pass Turnover Turnover (P1.T10),,,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1,0,,,,,,1
+0042100313,379,8,0,3,10:37 PM,7:04,SUB: Dinwiddie FOR Bullock,,,,,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0
+0042100313,381,1,1,3,10:38 PM,6:51,Dinwiddie 3PT Jump Shot (14 PTS) (Doncic 2 AST),,,59 - 56,-3,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,1
+0042100313,383,6,4,3,10:38 PM,6:36,,,Green OFF.Foul (P4) (J.Tiven),,,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,1,0,,,,,,1
+0042100313,385,5,37,3,10:38 PM,6:36,,,Green Offensive Foul Turnover (P3.T11),,,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1,0,,,,,,1
+0042100313,386,8,0,3,10:38 PM,6:36,,,SUB: Poole FOR Looney,,,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,5,1629673,Jordan Poole,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0
+0042100313,388,5,2,3,10:39 PM,6:17,Brunson Lost Ball Turnover (P1.T4),,Green STEAL (2 STL),,,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,390,2,41,3,10:39 PM,6:09,,,MISS Wiggins 2' Running Layup,,,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,391,4,0,3,10:39 PM,6:08,,,Wiggins REBOUND (Off:4 Def:3),,,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,392,2,101,3,10:39 PM,5:56,Doncic BLOCK (1 BLK),,MISS Curry 7' Driving Floating Jump Shot,,,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,1
+0042100313,394,4,0,3,10:39 PM,5:54,,,Wiggins REBOUND (Off:5 Def:3),,,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,395,1,72,3,10:39 PM,5:52,,,Wiggins 2' Putback Layup (17 PTS),61 - 56,-5,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,396,5,1,3,10:39 PM,5:33,Dinwiddie Bad Pass Turnover (P1.T5),,Poole STEAL (1 STL),,,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,5,1629673,Jordan Poole,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,398,1,1,3,10:40 PM,5:21,,,Green 23' Jump Shot (4 PTS) (Curry 7 AST),63 - 56,-7,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,400,2,102,3,10:40 PM,5:03,MISS Doncic 7' Driving Floating Bank Jump Shot,,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,401,4,0,3,10:40 PM,5:00,,,Wiggins REBOUND (Off:5 Def:4),,,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,402,2,6,3,10:40 PM,4:56,,,MISS Thompson 4' Driving Layup,,,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,404,4,0,3,10:40 PM,4:56,,,Warriors Rebound,,,3,1610612744,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,406,2,1,3,10:40 PM,4:47,,,MISS Thompson 25' 3PT Jump Shot,,,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,407,4,0,3,10:41 PM,4:45,,,Green REBOUND (Off:1 Def:3),,,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,408,1,108,3,10:41 PM,4:43,,,Thompson 1' Cutting Dunk Shot (13 PTS) (Green 3 AST),65 - 56,-9,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,410,9,1,3,10:41 PM,4:43,MAVERICKS Timeout: Regular (Full 4 Short 0),,,,,2,1610612742,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,411,8,0,3,10:44 PM,4:43,SUB: Bullock FOR Finney-Smith,,,,,4,1627827,Dorian Finney-Smith,1610612742.0,Dallas,Mavericks,DAL,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0
+0042100313,412,8,0,3,10:44 PM,4:43,,,SUB: Moody FOR Thompson,,,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,5,1630541,Moses Moody,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0
+0042100313,415,2,1,3,10:45 PM,4:20,MISS Dinwiddie 3PT Jump Shot,,,,,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,416,4,0,3,10:45 PM,4:18,,,Warriors Rebound,,,3,1610612744,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,418,1,1,3,10:45 PM,4:05,,,Curry 17' Jump Shot (22 PTS) (Green 4 AST),67 - 56,-11,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,420,2,1,3,10:46 PM,3:50,MISS Bullock 3PT Jump Shot,,,,,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,421,4,0,3,10:46 PM,3:48,Brunson REBOUND (Off:1 Def:3),,,,,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,422,2,79,3,10:46 PM,3:38,MISS Bullock 16' Pullup Jump Shot,,,,,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,423,4,0,3,10:46 PM,3:36,,,Wiggins REBOUND (Off:5 Def:5),,,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,424,5,11,3,10:46 PM,3:14,,,Warriors Turnover: Shot Clock (T#12),,,3,1610612744,,,,,,0,0,,,,,,1,0,,,,,,0
+0042100313,425,1,1,3,10:47 PM,2:54,Dinwiddie 25' 3PT Jump Shot (17 PTS) (Brunson 2 AST),,,67 - 59,-8,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,1
+0042100313,427,1,98,3,10:47 PM,2:35,,,Green 2' Cutting Layup Shot (6 PTS) (Curry 8 AST),69 - 59,-10,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,429,5,1,3,10:47 PM,2:18,Doncic Bad Pass Turnover (P3.T6),,Poole STEAL (2 STL),,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,5,1629673,Jordan Poole,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,431,6,2,3,10:48 PM,2:17,Bullock S.FOUL (P3.T4) (T.Ford),,,,,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,5,1629673,Jordan Poole,1610612744.0,Golden State,Warriors,GSW,1,0,,,,,,1
+0042100313,433,18,3,3,10:48 PM,2:17,,Instant Replay3rd Period (10:48 PM EST),,69 - 59,-10,0,431,Shawn Kemp,,,,,0,0,,,,,,1,0,,,,,,0
+0042100313,434,8,0,3,10:50 PM,2:17,SUB: Finney-Smith FOR Kleber,,,,,4,1628467,Maxi Kleber,1610612742.0,Dallas,Mavericks,DAL,4,1627827,Dorian Finney-Smith,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0
+0042100313,435,8,0,3,10:50 PM,2:17,SUB: Bertans FOR Doncic,,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,4,202722,Davis Bertans,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0
+0042100313,436,8,0,3,10:50 PM,2:17,,,SUB: Looney FOR Green,,,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0
+0042100313,440,3,11,3,10:51 PM,2:17,,,Poole Free Throw 1 of 2 (3 PTS),70 - 59,-11,5,1629673,Jordan Poole,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,441,8,0,3,10:51 PM,2:17,,,SUB: Thompson FOR Wiggins,,,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0
+0042100313,443,3,12,3,10:51 PM,2:17,,,Poole Free Throw 2 of 2 (4 PTS),71 - 59,-12,5,1629673,Jordan Poole,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,444,1,6,3,10:51 PM,1:58,Dinwiddie 2' Driving Layup (19 PTS),,,71 - 61,-10,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,445,6,2,3,10:52 PM,1:42,Bertans S.FOUL (P3.PN) (J.Tiven),,,,,4,202722,Davis Bertans,1610612742.0,Dallas,Mavericks,DAL,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,1,0,,,,,,1
+0042100313,447,3,11,3,10:52 PM,1:42,,,Curry Free Throw 1 of 2 (23 PTS),72 - 61,-11,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,448,3,12,3,10:52 PM,1:42,,,Curry Free Throw 2 of 2 (24 PTS),73 - 61,-12,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,449,1,1,3,10:53 PM,1:25,Finney-Smith 3PT Jump Shot (9 PTS) (Bertans 1 AST),,,73 - 64,-9,4,1627827,Dorian Finney-Smith,1610612742.0,Dallas,Mavericks,DAL,4,202722,Davis Bertans,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,1
+0042100313,451,1,98,3,10:53 PM,1:05,,,Looney 2' Cutting Layup Shot (9 PTS) (Curry 9 AST),75 - 64,-11,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,453,2,1,3,10:53 PM,0:57,MISS Bertans 25' 3PT Jump Shot,,,,,4,202722,Davis Bertans,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,454,4,0,3,10:53 PM,0:54,,,Poole REBOUND (Off:1 Def:2),,,5,1629673,Jordan Poole,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,455,1,80,3,10:54 PM,0:37,,,Curry 28' 3PT Step Back Jump Shot (27 PTS),78 - 64,-14,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,456,1,101,3,10:54 PM,0:29,Brunson 3' Driving Floating Jump Shot (16 PTS),,,78 - 66,-12,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,457,2,79,3,10:54 PM,0:09,,,MISS Curry 35' 3PT Pullup Jump Shot,,,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,458,4,0,3,10:54 PM,0:05,Bullock REBOUND (Off:0 Def:3),,,,,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,459,6,2,3,10:54 PM,0:00,,,Looney S.FOUL (P1.T2) (M.Davis),,,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,1,0,,,,,,1
+0042100313,461,3,11,3,10:55 PM,0:00,Dinwiddie Free Throw 1 of 2 (20 PTS),,,78 - 67,-11,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,462,8,0,3,10:55 PM,0:00,,,SUB: Toscano-Anderson FOR Moody,,,5,1630541,Moses Moody,1610612744.0,Golden State,Warriors,GSW,5,1629308,Juan Toscano-Anderson,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0
+0042100313,464,3,12,3,10:55 PM,0:00,Dinwiddie Free Throw 2 of 2 (21 PTS),,,78 - 68,-10,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,465,13,0,3,10:55 PM,0:00,,End of 3rd Period (10:55 PM EST),,78 - 68,-10,0,0,,,,,,0,0,,,,,,0,0,,,,,,1
+0042100313,472,12,0,4,10:59 PM,12:00,,Start of 4th Period (10:59 PM EST),,78 - 68,-10,0,0,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,473,1,6,4,10:59 PM,11:46,Doncic 1' Driving Layup (21 PTS),,,78 - 70,-8,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,474,6,2,4,11:00 PM,11:20,Bullock S.FOUL (P4.T1) (T.Ford),,,,,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,1,0,,,,,,1
+0042100313,476,18,0,4,11:00 PM,11:20,,Instant Replay4th Period (11:00 PM EST),,78 - 70,-8,0,474,Stefano Rusconi,,,,,0,0,,,,,,1,0,,,,,,0
+0042100313,477,3,11,4,11:01 PM,11:20,,,Wiggins Free Throw 1 of 2 (18 PTS),79 - 70,-9,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,480,3,12,4,11:01 PM,11:20,,,MISS Wiggins Free Throw 2 of 2,,,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,478,8,0,4,11:01 PM,11:20,SUB: Kleber FOR Bullock,,,,,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,4,1628467,Maxi Kleber,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0
+0042100313,481,4,0,4,11:01 PM,11:15,,,Moody REBOUND (Off:1 Def:0),,,5,1630541,Moses Moody,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,482,1,79,4,11:02 PM,11:14,,,Thompson 25' 3PT Pullup Jump Shot (16 PTS) (Moody 1 AST),82 - 70,-12,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,5,1630541,Moses Moody,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,484,1,6,4,11:02 PM,10:50,Brunson 4' Driving Layup (18 PTS),,,82 - 72,-10,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,485,6,2,4,11:02 PM,10:42,Brunson S.FOUL (P2.T2) (J.Tiven),,,,,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,5,1630541,Moses Moody,1610612744.0,Golden State,Warriors,GSW,1,0,,,,,,1
+0042100313,487,3,11,4,11:03 PM,10:42,,,Moody Free Throw 1 of 2 (1 PTS),83 - 72,-11,5,1630541,Moses Moody,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,490,3,12,4,11:03 PM,10:42,,,MISS Moody Free Throw 2 of 2,,,5,1630541,Moses Moody,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,488,8,0,4,11:03 PM,10:42,SUB: Bertans FOR Brunson,,,,,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,4,202722,Davis Bertans,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0
+0042100313,491,4,0,4,11:03 PM,10:40,MAVERICKS Rebound,,,,,2,1610612742,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,492,6,3,4,11:03 PM,10:40,,,Looney L.B.FOUL (P2.T1) (M.Davis),,,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,4,1628467,Maxi Kleber,1610612742.0,Dallas,Mavericks,DAL,1,0,,,,,,1
+0042100313,494,5,39,4,11:04 PM,10:27,Kleber Step Out of Bounds Turnover (P1.T7),,,,,4,1628467,Maxi Kleber,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,1,0,,,,,,1
+0042100313,495,2,80,4,11:04 PM,10:12,,,MISS Wiggins 27' 3PT Step Back Jump Shot,,,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,496,4,0,4,11:04 PM,10:09,Bertans REBOUND (Off:0 Def:1),,,,,4,202722,Davis Bertans,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,497,6,2,4,11:04 PM,10:03,,,Looney S.FOUL (P3.T2) (J.Tiven),,,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,1,0,,,,,,1
+0042100313,499,3,11,4,11:05 PM,10:03,Doncic Free Throw 1 of 2 (22 PTS),,,83 - 73,-10,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,500,3,12,4,11:05 PM,10:03,Doncic Free Throw 2 of 2 (23 PTS),,,83 - 74,-9,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,501,1,79,4,11:05 PM,9:52,,,Thompson 26' 3PT Pullup Jump Shot (19 PTS) (Poole 1 AST),86 - 74,-12,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,5,1629673,Jordan Poole,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,503,1,9,4,11:06 PM,9:41,Doncic 1' Driving Dunk (25 PTS),,,86 - 76,-10,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,504,9,1,4,11:06 PM,9:32,,,Warriors Timeout: Regular (Reg.4 Short 0),,,3,1610612744,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,505,8,0,4,11:09 PM,9:32,,,SUB: Green FOR Looney,,,5,1626172,Kevon Looney,1610612744.0,Golden State,Warriors,GSW,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0
+0042100313,507,2,79,4,11:09 PM,9:25,,,MISS Thompson 26' 3PT Pullup Jump Shot,,,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,508,4,0,4,11:10 PM,9:23,Kleber REBOUND (Off:1 Def:2),,,,,4,1628467,Maxi Kleber,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,509,6,2,4,11:10 PM,9:16,,,Thompson S.FOUL (P2.T3) (M.Davis),,,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,1,0,,,,,,1
+0042100313,511,3,11,4,11:10 PM,9:16,Dinwiddie Free Throw 1 of 2 (22 PTS),,,86 - 77,-9,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,512,3,12,4,11:10 PM,9:16,Dinwiddie Free Throw 2 of 2 (23 PTS),,,86 - 78,-8,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,513,1,80,4,11:11 PM,8:55,,,Poole 28' 3PT Step Back Jump Shot (7 PTS) (Wiggins 3 AST),89 - 78,-11,5,1629673,Jordan Poole,1610612744.0,Golden State,Warriors,GSW,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,515,1,80,4,11:11 PM,8:30,Doncic 25' 3PT Step Back Jump Shot (28 PTS),,,89 - 81,-8,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,516,6,26,4,11:11 PM,8:21,,,Poole Offensive Charge Foul (P4) (M.Davis),,,5,1629673,Jordan Poole,1610612744.0,Golden State,Warriors,GSW,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,1,0,,,,,,1
+0042100313,518,5,37,4,11:11 PM,8:21,,,Poole Offensive Foul Turnover (P2.T13),,,5,1629673,Jordan Poole,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1,0,,,,,,1
+0042100313,519,8,0,4,11:11 PM,8:21,,,SUB: Curry FOR Moody,,,5,1630541,Moses Moody,1610612744.0,Golden State,Warriors,GSW,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0
+0042100313,521,2,1,4,11:12 PM,7:59,MISS Kleber 25' 3PT Jump Shot,,,,,4,1628467,Maxi Kleber,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,522,4,0,4,11:12 PM,7:57,Finney-Smith REBOUND (Off:3 Def:0),,,,,4,1627827,Dorian Finney-Smith,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,523,2,1,4,11:12 PM,7:55,MISS Dinwiddie 29' 3PT Jump Shot,,,,,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,524,4,0,4,11:12 PM,7:52,Kleber REBOUND (Off:2 Def:2),,,,,4,1628467,Maxi Kleber,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,525,2,86,4,11:12 PM,7:39,MISS Doncic 19' Turnaround Fadeaway Shot,,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,526,4,0,4,11:12 PM,7:39,MAVERICKS Rebound,,,,,2,1610612742,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,527,5,11,4,11:12 PM,7:39,MAVERICKS Turnover: Shot Clock (T#8),,,,,2,1610612742,,,,,,0,0,,,,,,1,0,,,,,,0
+0042100313,529,2,1,4,11:15 PM,7:28,,,MISS Poole 3PT Jump Shot,,,5,1629673,Jordan Poole,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,530,4,0,4,11:15 PM,7:23,Finney-Smith REBOUND (Off:3 Def:1),,,,,4,1627827,Dorian Finney-Smith,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,531,1,9,4,11:15 PM,7:16,Bertans 1' Driving Dunk (2 PTS) (Dinwiddie 1 AST),,,89 - 83,-6,4,202722,Davis Bertans,1610612742.0,Dallas,Mavericks,DAL,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,1
+0042100313,533,6,2,4,11:15 PM,7:03,Kleber S.FOUL (P2.T3) (T.Ford),,,,,4,1628467,Maxi Kleber,1610612742.0,Dallas,Mavericks,DAL,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,1,0,,,,,,1
+0042100313,535,3,11,4,11:16 PM,7:03,,,Curry Free Throw 1 of 2 (28 PTS),90 - 83,-7,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,536,8,0,4,11:16 PM,7:03,SUB: Brunson FOR Dinwiddie,,,,,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0
+0042100313,537,8,0,4,11:16 PM,7:03,SUB: Bullock FOR Kleber,,,,,4,1628467,Maxi Kleber,1610612742.0,Dallas,Mavericks,DAL,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0
+0042100313,540,3,12,4,11:16 PM,7:03,,,Curry Free Throw 2 of 2 (29 PTS),91 - 83,-8,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,541,2,1,4,11:16 PM,6:52,MISS Bertans 26' 3PT Jump Shot,,,,,4,202722,Davis Bertans,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,542,4,0,4,11:16 PM,6:48,,,Green REBOUND (Off:1 Def:4),,,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,548,9,1,4,11:17 PM,6:38,,,Warriors Timeout: Regular (Reg.5 Short 0),,,3,1610612744,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,549,18,5,4,11:17 PM,6:38,,Instant Replay4th Period (11:17 PM EST),,91 - 83,-8,0,545,,,,,,0,0,,,,,,1,0,,,,,,0
+0042100313,550,1,9,4,11:19 PM,6:38,,,Wiggins 3' Driving Dunk (20 PTS) (Curry 10 AST),93 - 83,-10,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,552,8,0,4,11:20 PM,6:38,SUB: Dinwiddie FOR Finney-Smith,,,,,4,1627827,Dorian Finney-Smith,1610612742.0,Dallas,Mavericks,DAL,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0
+0042100313,554,6,1,4,11:21 PM,6:25,,,Curry P.FOUL (P4.T4) (T.Ford),,,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,1,0,,,,,,1
+0042100313,556,2,79,4,11:21 PM,6:17,MISS Doncic 28' 3PT Pullup Jump Shot,,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,557,4,0,4,11:21 PM,6:15,MAVERICKS Rebound,,,,,2,1610612742,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,559,5,11,4,11:22 PM,6:01,MAVERICKS Turnover: Shot Clock (T#9),,,,,2,1610612742,,,,,,0,0,,,,,,1,0,,,,,,0
+0042100313,560,2,79,4,11:22 PM,5:49,,,MISS Curry 14' Pullup Jump Shot,,,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,561,4,0,4,11:22 PM,5:46,,,Wiggins REBOUND (Off:6 Def:5),,,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,562,1,107,4,11:22 PM,5:46,,,Wiggins Tip Dunk Shot (22 PTS),95 - 83,-12,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,563,6,1,4,11:23 PM,5:41,,,Wiggins P.FOUL (P3.PN) (T.Ford),,,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,1,0,,,,,,1
+0042100313,565,3,11,4,11:23 PM,5:41,Doncic Free Throw 1 of 2 (29 PTS),,,95 - 84,-11,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,566,8,0,4,11:23 PM,5:41,SUB: Finney-Smith FOR Bertans,,,,,4,202722,Davis Bertans,1610612742.0,Dallas,Mavericks,DAL,4,1627827,Dorian Finney-Smith,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0
+0042100313,568,3,12,4,11:24 PM,5:41,Doncic Free Throw 2 of 2 (30 PTS),,,95 - 85,-10,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,569,2,79,4,11:24 PM,5:19,,,MISS Wiggins 18' Pullup Jump Shot,,,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,570,4,0,4,11:24 PM,5:15,Brunson REBOUND (Off:1 Def:4),,,,,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,571,2,1,4,11:24 PM,5:07,MISS Bullock 25' 3PT Jump Shot,,,,,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,572,4,0,4,11:24 PM,5:03,,,Poole REBOUND (Off:1 Def:3),,,5,1629673,Jordan Poole,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,573,6,1,4,11:25 PM,4:57,Dinwiddie P.FOUL (P1.T4) (T.Ford),,,,,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,5,1629673,Jordan Poole,1610612744.0,Golden State,Warriors,GSW,1,0,,,,,,1
+0042100313,575,1,75,4,11:25 PM,4:43,,,Curry 5' Driving Finger Roll Layup (31 PTS),97 - 85,-12,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,576,6,2,4,11:25 PM,4:35,,,Curry S.FOUL (P5.PN) (T.Ford),,,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,1,0,,,,,,1
+0042100313,578,3,11,4,11:26 PM,4:35,MISS Doncic Free Throw 1 of 2,,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,579,4,1,4,11:26 PM,4:35,MAVERICKS Rebound,,,,,2,1610612742,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,580,3,12,4,11:26 PM,4:35,Doncic Free Throw 2 of 2 (31 PTS),,,97 - 86,-11,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,582,6,2,4,11:27 PM,4:14,Doncic S.FOUL (P3.PN) (J.Tiven),,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,1,0,,,,,,1
+0042100313,584,3,13,4,11:27 PM,4:14,,,Wiggins Free Throw 1 of 3 (23 PTS),98 - 86,-12,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,585,7,1,4,11:27 PM,4:14,,,Warriors Violation: Delay of game Violation,,,3,1610612744,,,,,,0,0,,,,,,1,0,,,,,,0
+0042100313,586,3,14,4,11:28 PM,4:14,,,Wiggins Free Throw 2 of 3 (24 PTS),99 - 86,-13,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,587,3,15,4,11:28 PM,4:14,,,Wiggins Free Throw 3 of 3 (25 PTS),100 - 86,-14,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,588,1,6,4,11:28 PM,4:05,Doncic 2' Driving Layup (33 PTS),,,100 - 88,-12,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,589,1,108,4,11:29 PM,3:38,,,Wiggins Cutting Dunk Shot (27 PTS) (Green 5 AST),102 - 88,-14,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,591,1,1,4,11:29 PM,3:21,Doncic 25' 3PT Jump Shot (36 PTS) (Brunson 3 AST),,,102 - 91,-11,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,1
+0042100313,593,2,1,4,11:29 PM,2:58,,,MISS Thompson 3PT Jump Shot,,,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,594,4,0,4,11:29 PM,2:56,Doncic REBOUND (Off:0 Def:9),,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,595,1,101,4,11:30 PM,2:42,Brunson 5' Driving Floating Jump Shot (20 PTS) (Bullock 4 AST),,,102 - 93,-9,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,1
+0042100313,596,2,73,4,11:30 PM,2:18,,,MISS Curry 3' Driving Reverse Layup,,,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,597,4,0,4,11:30 PM,2:17,Doncic REBOUND (Off:0 Def:10),,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,598,2,102,4,11:30 PM,2:10,MISS Brunson 7' Driving Floating Bank Jump Shot,,,,,4,1628973,Jalen Brunson,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,599,4,0,4,11:30 PM,2:10,,,Warriors Rebound,,,3,1610612744,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,601,1,98,4,11:31 PM,1:57,,,Green 1' Cutting Layup Shot (8 PTS) (Curry 11 AST),104 - 93,-11,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,603,1,79,4,11:31 PM,1:49,Doncic 26' 3PT Pullup Jump Shot (39 PTS),,,104 - 96,-8,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,605,9,1,4,11:31 PM,1:49,,,Warriors Timeout: Regular (Reg.6 Short 0),,,3,1610612744,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,606,2,63,4,11:33 PM,1:28,,,MISS Green 8' Fadeaway Jumper,,,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,607,4,0,4,11:33 PM,1:26,Doncic REBOUND (Off:0 Def:11),,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,608,1,1,4,11:33 PM,1:15,Dinwiddie 3PT Jump Shot (26 PTS) (Doncic 3 AST),,,104 - 99,-5,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,1
+0042100313,610,1,1,4,11:33 PM,0:54,,,Poole 3PT Jump Shot (10 PTS) (Thompson 2 AST),107 - 99,-8,5,1629673,Jordan Poole,1610612744.0,Golden State,Warriors,GSW,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,612,2,79,4,11:34 PM,0:47,MISS Doncic 25' 3PT Pullup Jump Shot,,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,613,4,0,4,11:34 PM,0:43,,,Curry REBOUND (Off:1 Def:4),,,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,614,2,6,4,11:34 PM,0:29,Doncic BLOCK (2 BLK),,MISS Curry 5' Driving Layup,,,5,201939,Stephen Curry,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,1
+0042100313,616,4,0,4,11:34 PM,0:26,Bullock REBOUND (Off:0 Def:4),,,,,4,203493,Reggie Bullock,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,617,6,2,4,11:34 PM,0:25,,,Wiggins S.FOUL (P4.PN) (T.Ford),,,5,203952,Andrew Wiggins,1610612744.0,Golden State,Warriors,GSW,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,1,0,,,,,,1
+0042100313,619,3,11,4,11:35 PM,0:25,Doncic Free Throw 1 of 2 (40 PTS),,,107 - 100,-7,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,620,3,12,4,11:35 PM,0:25,MISS Doncic Free Throw 2 of 2,,,,,4,1629029,Luka Doncic,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,621,4,0,4,11:35 PM,0:21,,,Thompson REBOUND (Off:0 Def:7),,,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,622,9,1,4,11:35 PM,0:21,,,Warriors Timeout: Regular (Reg.7 Short 0),,,3,1610612744,,,,,,0,0,,,,,,0,0,,,,,,0
+0042100313,623,1,98,4,11:37 PM,0:11,,,Green 1' Cutting Layup Shot (10 PTS) (Thompson 3 AST),109 - 100,-9,5,203110,Draymond Green,1610612744.0,Golden State,Warriors,GSW,5,202691,Klay Thompson,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,1
+0042100313,625,2,1,4,11:37 PM,0:05,MISS Dinwiddie 27' 3PT Jump Shot,,,,,4,203915,Spencer Dinwiddie,1610612742.0,Dallas,Mavericks,DAL,0,0,,,,,,0,0,,,,,,1
+0042100313,626,4,0,4,11:37 PM,0:02,,,Poole REBOUND (Off:1 Def:4),,,5,1629673,Jordan Poole,1610612744.0,Golden State,Warriors,GSW,0,0,,,,,,0,0,,,,,,1
+0042100313,627,13,0,4,11:37 PM,0:00,,End of 4th Period (11:37 PM EST),,109 - 100,-9,0,0,,,,,,0,0,,,,,,0,0,,,,,,1
