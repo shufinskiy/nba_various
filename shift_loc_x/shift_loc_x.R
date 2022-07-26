@@ -1,16 +1,47 @@
-library(data.table, warn.conflicts = FALSE)
-library(ggplot2, warn.conflicts = FALSE)
-library(dplyr, warn.conflicts = FALSE)
-library(ggthemes)
-library(gt)
-library(gtExtras)
+### Загрузка данных сезонов 2016/17 - 2021/22 с Dropbox
+download_shotdetail_dropbox <- function(path = "./data/"){
+  if(!dir.exists(path)){
+    dir.create(path)
+  }
+  dropbox_link <- c("https://www.dropbox.com/s/7oibz0f6p9jjpxz/shotdetail_2016.tar.xz?dl=1",
+                    "https://www.dropbox.com/s/zyos6q35i8po2jy/shotdetail_2017.tar.xz?dl=1",
+                    "https://www.dropbox.com/s/3ul5ldxy66ih1ro/shotdetail_2018.tar.xz?dl=1",
+                    "https://www.dropbox.com/s/f4dw48a9v8ynhe5/shotdetail_2019.tar.xz?dl=1",
+                    "https://www.dropbox.com/s/9cos0l2rat1rela/shotdetail_2020.tar.xz?dl=1",
+                    "https://www.dropbox.com/s/de81ie1lj0nvorc/shotdetail_2021.tar.xz?dl=1")
 
-### Загрузка данных по броскам с сезона 2016/17 по сезон 2021/22
-list_files <- list.files("../../experimet_dff_shot/datasets", pattern = "shotdetail", full.names = TRUE)
+  for(link in dropbox_link){
+    season <- regmatches(link, regexpr("\\d{4}", link))
+    if(!file.exists(paste0(path, season ,".csv"))){
+      download.file(link, paste0(path, season ,".tar.xz"))
+    }
+  }
+}
 
-df <- data.table::rbindlist(lapply(list_files, data.table::fread))
+download_shotdetail_dropbox()
 
-### УДаление столбцов, которые не будут использоваться в исследовании
+### Распаковка файлов и загрузка данных
+unpack_and_read <- function(path = "./data", pattern = ".tar.xz$", rm_csv=FALSE){
+  list_tar <- list.files(path, full.names = TRUE)
+  
+  for(file in list_tar){
+    season <- regmatches(file, regexpr("\\d{4}", file))
+    untar(file, exdir = path)
+  }
+  list_csv <- list.files(path, pattern = ".csv$", full.names = TRUE)
+  df <- data.table::rbindlist(lapply(list_csv, data.table::fread))
+  
+  if(rm_csv){
+    for(file in list_csv){
+      unlink(file)
+    }  
+  }
+  return(df)
+}
+
+df <- unpack_and_read(rm_csv = TRUE)
+
+### Удаление столбцов, которые не будут использоваться в исследовании
 shots <- df[, .(GAME_ID, PLAYER_ID, PLAYER_NAME, TEAM_ID, TEAM_NAME, LOC_X)]
 rm(df)
 ### Преобразование столбца GAME_ID в столбец SEASON, LOC_X преобразуем в футы
@@ -23,6 +54,11 @@ agg_loc_x_mean <- shots[, .(LOC_X = mean(LOC_X)), by=c("SEASON", "TEAM_ID", "TEA
 
 ### Добавляем фактор SIDE: если LOC_X < 0, то R, иначе L
 agg_loc_x_side <- agg_loc_x_mean[, SIDE := data.table::fifelse(LOC_X < 0, 'R', 'L')][, .(.N), by=c("SEASON", "SIDE")]
+
+### Создание директории charts (если это необходимо)
+if(!dir.exists("./charts")){
+  dir.create("./charts")
+}
 
 ### Построение barplot графика
 ggplot2::ggplot(agg_loc_x_side, aes(SEASON, N, fill=SIDE, label = N)) +
