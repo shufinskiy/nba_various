@@ -51,7 +51,7 @@ df1 <- df %>%
   dplyr::ungroup()
 
 ggthemr::ggthemr('solarized')
-### Boxplot всех позиций
+
 ggplot2::ggplot(df1, ggplot2::aes(as.factor(NSALARY), SALARY))+
   ggplot2::geom_boxplot() +
   ggplot2::scale_y_continuous(labels = scales::unit_format(unit = "M", scale = 1e-6)) +
@@ -66,7 +66,6 @@ summary_rank <- df1 %>%
   dplyr::summarise(SUM_RANK = sum(SALARY_RANK)) %>% 
   dplyr::ungroup()
 
-### Summary rank
 ggplot2::ggplot(summary_rank, ggplot2::aes(forcats::fct_reorder(TEAM, SUM_RANK), SUM_RANK)) +
   ggplot2::geom_col() +
   ggplot2::ylab("Total rank") +
@@ -78,8 +77,8 @@ ggplot2::ggplot(summary_rank, ggplot2::aes(forcats::fct_reorder(TEAM, SUM_RANK),
 salary_info_team <- function(abr_team, nba_dict=team_dict){
   
   one_team <- dplyr::filter(df1, TEAM == abr_team)
-  ### Три графика для команды: 1. салари, 2. Ранг в НБА
-  gg1 <- ggplot2::ggplot(one_team, aes(NSALARY, SALARY)) +
+  
+  gg1 <- ggplot2::ggplot(one_team, ggplot2::aes(NSALARY, SALARY)) +
     ggplot2::geom_point() +
     ggplot2::geom_line() +
     ggplot2::scale_y_continuous(labels = scales::unit_format(unit = "M", scale = 1e-6)) +
@@ -87,7 +86,7 @@ salary_info_team <- function(abr_team, nba_dict=team_dict){
     ggplot2::theme(axis.title.x = ggplot2::element_blank()) +
     ggplot2::ylab("salary in million dollars")
   
-  gg3 <- ggplot2::ggplot(one_team, aes(NSALARY, SALARY_RANK)) +
+  gg3 <- ggplot2::ggplot(one_team, ggplot2::aes(NSALARY, SALARY_RANK)) +
     ggplot2::geom_point() +
     ggplot2::geom_line() +
     ggplot2::scale_y_continuous(breaks = c(1, seq(5, 30, 5)), trans = "reverse") +
@@ -104,7 +103,6 @@ salary_info_team <- function(abr_team, nba_dict=team_dict){
     ggplot2::theme(plot.title = ggplot2::element_text(hjust=0.5)) 
   ggplot2::ggsave("./charts/tmp_chart.png", plot = patchgg)
   
-  ### Таблица топ-10 игроков команды по зарплатам
   one_team %>% 
     dplyr::mutate(RANK = dplyr::row_number()) %>% 
     dplyr::select(RANK, SALARY_RANK, PLAYER, SALARY) %>% 
