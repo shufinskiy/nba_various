@@ -58,7 +58,7 @@ ggplot2::ggplot(df1, ggplot2::aes(as.factor(NSALARY), SALARY))+
   ggplot2::xlab("position on team salary cap") +
   ggplot2::ylab("salary in million dollars") +
   ggplot2::labs(title = "Distribution salary by position in NBA team's salary",
-                caption = "DATA: nba.com; twitter: @vshufinskiy, Telegram: @nbaatlantic") +
+                caption = "DATA: hoopshype; twitter: @vshufinskiy, Telegram: @nbaatlantic") +
   ggplot2::theme(plot.title = ggplot2::element_text(hjust=0.5))
 
 summary_rank <- df1 %>% 
@@ -70,7 +70,7 @@ ggplot2::ggplot(summary_rank, ggplot2::aes(forcats::fct_reorder(TEAM, SUM_RANK),
   ggplot2::geom_col() +
   ggplot2::ylab("Total rank") +
   ggplot2::labs(title = "Total rank top-10 team's salary",
-                caption = "DATA: nba.com; twitter: @vshufinskiy, Telegram: @nbaatlantic") +
+                caption = "DATA: hoopshype; twitter: @vshufinskiy, Telegram: @nbaatlantic") +
   ggplot2::theme(axis.title.x = ggplot2::element_blank(),
                  plot.title = ggplot2::element_text(hjust=0.5))
 
@@ -98,7 +98,7 @@ salary_info_team <- function(abr_team, nba_dict=team_dict){
   patchgg <- patchgg +
     patchwork::plot_annotation(
       title = paste0("Top 10 ", nba_dict[[abr_team]][2]," salaries"),
-      caption = "DATA: nba.com; twitter: @vshufinskiy, Telegram: @nbaatlantic"
+      caption = "DATA: hoopshype; twitter: @vshufinskiy, Telegram: @nbaatlantic"
     ) &
     ggplot2::theme(plot.title = ggplot2::element_text(hjust=0.5)) 
   ggplot2::ggsave("./charts/tmp_chart.png", plot = patchgg)
