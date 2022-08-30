@@ -1,2 +1,5 @@
-# nba_various
-Small projects on NBA theme
+### Сборник небольших исследований по данным NBA
+
+**Список исследований**
+
+1. [Salary](https://github.com/shufinskiy/nba_various/tree/main/salary) - анализ распределения топ-10 зарплат команд относительно всей лиги.
