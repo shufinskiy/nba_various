@@ -122,7 +122,7 @@ agg_loc_x_mean[SEASON == "2021-22", .(TEAM_ID, TEAM_NAME, LOC_X)][order(LOC_X)] 
 
 ### Построение графика влияния на LOC_X для одной команды по убыванию количества бросков
 coord_x_by_players <- function(data, team_id, clip=4.5){
-  dt <- data[SEASON == "2021-22" & TEAM_ID == team_id][, .(CNT_SHOTS = .N, LOC_X_MEAN = mean(LOC_X)), by=c("PLAYER_ID", "PLAYER_NAME", "TEAM_NAME")][
+  dt <- data[SEASON == "2021-22" & TEAM_ID == team_id][, .(CNT_SHOTS = .N, LOC_X_MEAN = mean(-LOC_X)), by=c("PLAYER_ID", "PLAYER_NAME", "TEAM_NAME")][
     order(CNT_SHOTS, decreasing = TRUE)]
   
   dt$LOC_X_CLIP <- pmax(pmin(dt$LOC_X_MEAN, 4.5), -4.5)
