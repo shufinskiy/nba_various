@@ -97,7 +97,8 @@ cnt_side_season %>%
   gt::gtsave("./charts/tbl_cnt_teams.png", zoom=1)
 
 ### Таблица сезона 2021/2022
-agg_loc_x_mean[SEASON == "2021-22", .(TEAM_ID, TEAM_NAME, LOC_X)][order(LOC_X)] %>% 
+agg_loc_x_mean_rev <- shots[, .(LOC_X = mean(-LOC_X)), by=c("SEASON", "TEAM_ID", "TEAM_NAME")]
+agg_loc_x_mean_rev[SEASON == "2021-22", .(TEAM_ID, TEAM_NAME, LOC_X)][order(LOC_X)] %>% 
   gt::gt() %>% 
   gtExtras::gt_theme_espn() %>% 
   gt::fmt_number(columns = LOC_X, decimals = 2) %>% 
