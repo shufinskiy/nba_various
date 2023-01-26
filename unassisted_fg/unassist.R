@@ -4,9 +4,9 @@ library(data.table)
 library(gt)
 library(gtExtras)
 
-list_files <- list.files(path = "../../advanced_pbp_data/datasets/2022/nbastats/", full.names = TRUE)
-
-df <- rbindlist(lapply(list_files, fread))
+untar("pbp_2022.tar.xz")
+df <- fread("pbp_2022.csv")
+unlink("pbp_2022.csv")
 
 team_df <- df %>% 
   select(PLAYER1_TEAM_ID, PLAYER1_TEAM_NICKNAME, EVENTMSGTYPE, PLAYER2_ID) %>% 
@@ -106,4 +106,3 @@ build_gt_table(gttable1, "Tiers 1-15") %>%
 
 build_gt_table(gttable2, "Tiers 16-30") %>% 
   gtsave("unassist_2.png", vwidth = 1700, expand=0)
-
