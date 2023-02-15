@@ -8,7 +8,7 @@ library(gridExtra)
 
 source("utils.R")
 
-pbp <- read.csv("gsw_dal.csv")
+pbp <- read.csv("example_pbp.csv")
 
 streak_report <- function(data){
   `%notin%` <- Negate(`%in%`)
