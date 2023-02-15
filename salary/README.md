@@ -1,5 +1,7 @@
 ### Сравнение зарплат игроков НБА по командам в сезоне 2022/23
 
+**Статья на sports.ru: https://www.sports.ru/tribuna/blogs/atlanticbrains/3074506.html**
+
 *Данные: сайт hoopshype, раздел salary, 07.10.2022* 
 
 **Описание анализа**
