@@ -1,11 +1,13 @@
 library(data.table, warn.conflicts = FALSE)
 
+season <- 2022
+
 set.seed(42)
-logs <- fread("./data/playergamelog.csv")
+logs <- fread(paste0('./data/playergamelog_', season, '.csv'))
 logs <- logs[order(GAME_DATE)]
 
-val <- "PTS"
-ntop <- 30
+val <- "REB"
+ntop <- 15
 
 playercalculation <- function(value){
   player_id <- unique(logs[, PLAYER_ID])
@@ -42,14 +44,15 @@ playercalculation <- function(value){
   
   d <- data.table(matrix(data = unlist(m, use.names = FALSE), ncol=12, byrow = TRUE))
   
-  colnames(d) <- c("PLAYER_NAME", "FIRST_PART", "FIRST_PART_FINISH", "SECOND_PART", "SECOND_PART_FINISH", 
-                   "DATE_FP", "DATE2", "DATE_SP", "DATE4", paste0("FIRST_PART_", cols), paste0("SECOND_PART_", cols), "DIFF")
-  
+  colnames(d) <- c("PLAYER_NAME", "FIRST_PART", "FIRST_PART_FINISH", "SECOND_PART", "SECOND_PART_FINISH",
+                   "DATE_FP", "DATE2", "DATE_SP", "DATE4", "FIRST_PART_VAL", "SECOND_PART_VAL", "DIFF")
+
   date_cols <- c("DATE_FP", "DATE2", "DATE_SP", "DATE4")
   d[, (date_cols) := lapply(.SD, lubridate::as_date), .SDcols = date_cols]
   pl_un <- unique(logs[, c("PLAYER_ID", "PLAYER_NAME")])
+  d$PLAYER_ID <- d$PLAYER_NAME
   d[, "PLAYER_NAME" := sapply(PLAYER_NAME, function(x) pl_un[PLAYER_ID == x, PLAYER_NAME])]
-  
+
   d[, `:=`(FIRST_PART = paste0(FIRST_PART, '-', FIRST_PART_FINISH),
            SECOND_PART = paste0(SECOND_PART, '-', SECOND_PART_FINISH),
            DATE_FP = paste0(DATE_FP, " ", DATE2),
@@ -65,20 +68,71 @@ d <- d[order(DIFF, decreasing = TRUE)]
 d <- d[!which(duplicated(d[, PLAYER_NAME]))]
 d <- d[seq(1, ntop)]
 
-library(RColorBrewer)
-library(inlmisc)
-library(grid)
-library(gridExtra)
-library(gtable)
+library(gt)
+library(gtExtras)
 
-cols <- sapply(seq(1, ntop), function(x) if (d[[6]][x] > d[[7]][x]) "#64A5CC" else "#E17A60")
-
-theme_tbl <- ttheme_minimal(core = list(bg_params = list(fill=cols, col=NA)))
-t1 <- tableGrob(d[, 1:7], theme = ttheme_minimal(), rows = NULL)
-t2 <- tableGrob(d[, 8], theme = theme_tbl, rows = NULL)
-g <- replicate(ntop+1, segmentsGrob(x0 = unit(0,"npc"), x1 = unit(1,"npc"), y0 = unit(0,"npc"), y1 = unit(0,"npc"), gp=gpar(fill = NA, lwd = 2)), simplify = FALSE)
-t1 <- gtable_add_grob(t1, grobs = g, t=2, b=seq_len(nrow(t1)), r=1, l=ncol(t1))
-t2 <- gtable_add_grob(t2, grobs = g, t=2, b=seq_len(nrow(t2)), r=1, l=ncol(t2))
-t <- gtable_combine(t1,t2, along=1)
-grid.arrange(t, top=paste0("Top-", ntop," difference in ", val," value for two parts of 2021/22 season.",
-                           "\nFor players with min. 50 games, each part min. 25 games."), bottom=" Telegram: @nbaatlantic | Data: stats.nba.com")
+d %>% 
+  gt() %>% 
+  gt_theme_espn() %>% 
+  cols_move_to_start(columns = PLAYER_ID) %>% 
+  text_transform(
+    locations = cells_body(columns = PLAYER_ID),
+    fn = function(x){
+      paste0('https://cdn.nba.com/headshots/nba/latest/1040x760/', x, '.png')
+    }
+  ) %>% 
+  text_transform(
+    fn = function(x){
+      gsub(" ","<br>", x)
+    },
+    locations = cells_body(columns=c(DATE_FP, DATE_SP))
+  ) %>% 
+  cols_align(align = "center") %>%
+  gt_img_rows(columns = PLAYER_ID, img_source = "web", height = 60) %>%
+  tab_spanner(
+    "№ Games",
+    columns = c(FIRST_PART, SECOND_PART),
+    id = 'for_footnote'
+  ) %>% 
+  tab_spanner(
+    "DATE",
+    columns = c(DATE_FP, DATE_SP)
+  ) %>% 
+  tab_spanner(
+    val,
+    columns = c(FIRST_PART_VAL, SECOND_PART_VAL, DIFF)
+  ) %>% 
+  tab_footnote(
+    footnote = "Sequence numbers of games in the season for the player. They may not equal 82.",
+    locations = cells_column_spanners(spanners='for_footnote')
+  ) %>% 
+  tab_style(
+    style = cell_fill(color='#64A5CC'),
+    locations = cells_body(
+      columns = DIFF,
+      rows = FIRST_PART_VAL - SECOND_PART_VAL > 0
+    )
+  ) %>% 
+  tab_style(
+    style = cell_fill(color='#E17A60'),
+    locations = cells_body(
+      columns = DIFF,
+      rows = FIRST_PART_VAL - SECOND_PART_VAL < 0
+    )
+  ) %>% 
+  cols_label(
+    .list = list(
+      "PLAYER_ID" = "",
+      "DATE_FP" = "FIRST PART",
+      "DATE_SP" = "SECOND PART",
+      "FIRST_PART_VAL" = "FIRST PART",
+      "SECOND_PART_VAL" = "SECOND PART"
+    )
+  ) %>% 
+  tab_header(title = paste0("Top-15 players by ", val, " difference between two parts season 2022/23"),
+             subtitle = "Min. 50 games in season. Each part min. 25 games") %>%
+  tab_source_note(md("DATA:stats.nba.com; twitter: **@vshufinskiy**, Telegram: **@nbaatlantic**")) %>%
+  tab_options(
+    heading.align = "center"
+  ) %>% 
+  gtsave(paste0("./charts/", tolower(val),".png"), vheight = 2500)

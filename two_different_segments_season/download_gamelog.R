@@ -1,5 +1,7 @@
 source('download_utils.R')
 
+season <- 2022
+
 get_leaguegamelog <- function(Season=2020, ...){
   Season <- paste(Season, as.numeric(substr(Season, 3, 4)) + 1, sep = '-')
   url <- 'https://stats.nba.com/stats/leaguegamelog?'
@@ -14,20 +16,20 @@ get_leaguegamelog <- function(Season=2020, ...){
   return(nba_data)
 }
 
-t <- get_leaguegamelog(2021)
+team_log <- get_leaguegamelog(season)
 
 if (dir.exists('./data')){
-  write.csv(t, './data/gamelog.csv', row.names = FALSE)
+  write.csv(team_log, paste0('./data/gamelog_', season, '.csv'), row.names = FALSE)
 } else {
   dir.create('./data')
-  write.csv(t, './data/gamelog.csv', row.names = FALSE)
+  write.csv(team_log, paste0('./data/gamelog_', season, '.csv'), row.names = FALSE)
 }
 
-t <- get_leaguegamelog(2021, PlayerOrTeam='P')
+player_log <- get_leaguegamelog(season, PlayerOrTeam='P')
 
 if (dir.exists('./data')){
-  write.csv(t, './data/playergamelog.csv', row.names = FALSE)
+  write.csv(player_log, paste0('./data/playergamelog_', season, '.csv'), row.names = FALSE)
 } else {
   dir.create('./data')
-  write.csv(t, './data/playergamelog.csv', row.names = FALSE)
+  write.csv(player_log, paste0('./data/playergamelog_', season, '.csv'), row.names = FALSE)
 }

@@ -1,7 +1,9 @@
 library(data.table, warn.conflicts = FALSE)
 
+season <- 2022
+
 set.seed(42)
-logs <- fread("./data/gamelog.csv")
+logs <- fread(paste0('./data/gamelog_', season, '.csv'))
 logs <- logs[order(GAME_DATE)]
 
 team_id <- unique(logs[, TEAM_ID])
@@ -75,7 +77,7 @@ colnames(d) <- c("TEAM_NAME", "FIRST_PART", "FIRST_PART_FINISH", "SECOND_PART", 
 
 date_cols <- c("DATE_FP", "DATE2", "DATE_SP", "DATE4")
 d[, (date_cols) := lapply(.SD, lubridate::as_date), .SDcols = date_cols]
-d[, "TEAM_NAME" := sapply(TEAM_NAME, function(x) names(team_dict[team_dict == x]))]
+# d[, "TEAM_NAME" := sapply(TEAM_NAME, function(x) names(team_dict[team_dict == x]))]
 
 d[, `:=`(FIRST_PART = paste0(FIRST_PART, '-', FIRST_PART_FINISH),
          SECOND_PART = paste0(SECOND_PART, '-', SECOND_PART_FINISH),
@@ -85,21 +87,67 @@ d[, `:=`(FIRST_PART = paste0(FIRST_PART, '-', FIRST_PART_FINISH),
          ]
 
 d <- d[order(DIFF, decreasing = TRUE)]
+d$TEAM_NAME <- paste0("https://cdn.nba.com/logos/nba/", d$TEAM_NAME,"/global/L/logo.svg")
 
-library(RColorBrewer)
-library(inlmisc)
-library(grid)
-library(gridExtra)
-library(gtable)
+library(gt)
+library(gtExtras)
 
-cols <- sapply(seq(1, 30), function(x) if (d[, `FIRST_PART_W%`][x] > d[, `SECOND_PART_W%`][x]) "#64A5CC" else "#E17A60")
+build_team_gt_table <- function(data){
+  data %>% 
+    gt() %>% 
+    gt_theme_espn() %>% 
+    text_transform(
+      fn = function(x){
+        gsub(" ","<br>", x)
+      },
+      locations = cells_body(columns=c(DATE_FP, DATE_SP))
+    ) %>% 
+    cols_align(align = "center") %>% 
+    gt_img_rows(columns = TEAM_NAME, img_source = "web", height = 60) %>%
+    tab_spanner(
+      "№ Games",
+      columns = c(FIRST_PART, SECOND_PART)
+    ) %>% 
+    tab_spanner(
+      "DATE",
+      columns = c(DATE_FP, DATE_SP)
+    ) %>% 
+    tab_spanner(
+      "Win Percentage",
+      columns = c(`FIRST_PART_W%`, `SECOND_PART_W%`, DIFF)
+    ) %>% 
+    tab_style(
+      style = cell_fill(color='#64A5CC'),
+      locations = cells_body(
+        columns = DIFF,
+        rows = `FIRST_PART_W%` - `SECOND_PART_W%` > 0
+      )
+    ) %>% 
+    tab_style(
+      style = cell_fill(color='#E17A60'),
+      locations = cells_body(
+        columns = DIFF,
+        rows = `FIRST_PART_W%` - `SECOND_PART_W%` < 0
+      )
+    ) %>% 
+    cols_label(
+      TEAM_NAME = "TEAM",
+      FIRST_PART = "FIRST PART",
+      SECOND_PART = "SECOND_PART",
+      DATE_FP = "FIRST PART",
+      DATE_SP = "SECOND PART",
+      `FIRST_PART_W%` = "FIRST PART",
+      `SECOND_PART_W%` = "SECOND PART"
+    ) %>% 
+    tab_header(title = "Difference between Win precentage for two parts season 2022/23",
+               subtitle = "Each part min 25 games") %>%
+    tab_source_note(md("DATA:stats.nba.com; twitter: **@vshufinskiy**, Telegram: **@nbaatlantic**")) %>%
+    tab_options(
+      heading.align = "center"
+    )
+}
 
-theme_tbl <- ttheme_minimal(core = list(bg_params = list(fill=cols, col=NA)))
-t1 <- tableGrob(d[, 1:7], theme = ttheme_minimal(), rows = NULL)
-t2 <- tableGrob(d[, 8], theme = theme_tbl, rows = NULL)
-g <- replicate(31, segmentsGrob(x0 = unit(0,"npc"), x1 = unit(1,"npc"), y0 = unit(0,"npc"), y1 = unit(0,"npc"), gp=gpar(fill = NA, lwd = 2)), simplify = FALSE)
-t1 <- gtable_add_grob(t1, grobs = g, t=2, b=seq_len(nrow(t1)), r=1, l=ncol(t1))
-t2 <- gtable_add_grob(t2, grobs = g, t=2, b=seq_len(nrow(t2)), r=1, l=ncol(t2))
-t <- gtable_combine(t1,t2, along=1)
-grid.arrange(t, top=paste0("Difference W% for two parts season 2021/22",
-                           "\nEach part min. 25 games."), bottom=" Telegram: @nbaatlantic | Data: stats.nba.com")
+build_team_gt_table(d[seq(1, 15),]) %>% 
+  gtsave("./charts/team_win_top.png", vheight = 2500)
+build_team_gt_table(d[seq(16, 30),]) %>% 
+  gtsave("./charts/team_win_bottom.png", vheight = 2500)

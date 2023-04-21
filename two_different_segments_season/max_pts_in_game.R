@@ -1,8 +1,10 @@
 library(dplyr, warn.conflicts = FALSE)
 
-logs <- read.csv("./data/playergamelog.csv")
+season <- 2022
 
-ntop <- 30
+logs <- read.csv(paste0('./data/playergamelog_', season, '.csv'))
+
+ntop <- 15
 
 tbl <- logs %>% 
   group_by(GAME_ID, TEAM_ID) %>% 
@@ -16,15 +18,39 @@ tbl <- logs %>%
   arrange(desc(COUNT)) %>% 
   inner_join(., unique(select(logs, TEAM_ID, TEAM_NAME, PLAYER_ID, PLAYER_NAME)), by = c("TEAM_ID", "PLAYER_ID")) %>% 
   slice_head(n=ntop) %>% 
-  select(PLAYER_NAME, TEAM_NAME, COUNT)
+  select(PLAYER_ID, PLAYER_NAME, TEAM_ID, COUNT) %>% 
+  inner_join(., logs %>% group_by(PLAYER_ID) %>% summarise(NGAME = n()), by="PLAYER_ID") %>% 
+  mutate(SHARE = round(COUNT/NGAME*100, 2)) %>% 
+  mutate(
+    TEAM_ID = paste0("https://cdn.nba.com/logos/nba/", TEAM_ID,"/global/L/logo.svg"),
+    PLAYER_ID = paste0('https://cdn.nba.com/headshots/nba/latest/1040x760/', PLAYER_ID, '.png')
+  )
 
-library(RColorBrewer)
-library(inlmisc)
-library(grid)
-library(gridExtra)
-library(gtable)
+library(gt)
+library(gtExtras)
 
-t1 <- tableGrob(tbl[, 1:3], theme = ttheme_minimal(), rows = NULL)
-g <- replicate(ntop+1, segmentsGrob(x0 = unit(0,"npc"), x1 = unit(1,"npc"), y0 = unit(0,"npc"), y1 = unit(0,"npc"), gp=gpar(fill = NA, lwd = 2)), simplify = FALSE)
-t1 <- gtable_add_grob(t1, grobs = g, t=2, b=seq_len(nrow(t1)), r=1, l=ncol(t1))
-grid.arrange(t1, top="Count of games with a lead by points", bottom=" Telegram: @nbaatlantic | Data: stats.nba.com")
+tbl %>% 
+  gt() %>% 
+  gt_theme_espn() %>% 
+  tab_spanner(
+    "GAMES",
+    columns = c(COUNT, NGAME)
+  ) %>% 
+  cols_align(align = "center") %>% 
+  gt_hulk_col_numeric(SHARE, reverse = FALSE) %>% 
+  gt_img_rows(columns = TEAM_ID, img_source = "web", height = 60) %>%
+  gt_img_rows(columns = PLAYER_ID, img_source = "web", height = 60) %>% 
+  cols_label(
+    PLAYER_ID = "",
+    PLAYER_NAME = "NAME",
+    TEAM_ID = "",
+    COUNT = html("TOP<br>SCORER"),
+    NGAME = "GAMES",
+    SHARE = "%"
+  ) %>% 
+  tab_header(title = "Top-15 players by count games with max points in team") %>%
+  tab_source_note(md("DATA:stats.nba.com; twitter: **@vshufinskiy**, Telegram: **@nbaatlantic**")) %>%
+  tab_options(
+    heading.align = "center"
+  ) %>% 
+  gtsave("./charts/cnt_pts_leader.png", vheight = 2500)
