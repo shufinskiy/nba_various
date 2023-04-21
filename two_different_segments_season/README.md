@@ -2,7 +2,8 @@
 
 #### Link on Medium article: https://medium.com/p/36e237fc7a97
 
-![](https://github.com/shufinskiy/nba_various/blob/main/two_different_segments_season/charts/team_win.png)
+![](https://github.com/shufinskiy/nba_various/blob/main/two_different_segments_season/charts/team_win_top.png)
+![](https://github.com/shufinskiy/nba_various/blob/main/two_different_segments_season/charts/team_win_bottom.png)
 ![](https://github.com/shufinskiy/nba_various/blob/main/two_different_segments_season/charts/min.png)
 ![](https://github.com/shufinskiy/nba_various/blob/main/two_different_segments_season/charts/pts.png)
 ![](https://github.com/shufinskiy/nba_various/blob/main/two_different_segments_season/charts/fga.png)
