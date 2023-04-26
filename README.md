@@ -11,5 +11,6 @@
 7. [points_streak](https://github.com/shufinskiy/nba_various/tree/main/points_streak) - game summary charts with points streak information.
 8. [salary](https://github.com/shufinskiy/nba_various/tree/main/salary) - analysis of the distribution of top 10 salaries of teams relative to league.
 9. [shift_loc_x](https://github.com/shufinskiy/nba_various/tree/main/shift_loc_x) - analysis of the deviation of team's shots from the central axis of the court.
-10. [two_different_segments_season](https://github.com/shufinskiy/nba_various/tree/main/two_different_segments_season) - comparison of two parts of the season 2021/22
-11. [unassisted_fg](https://github.com/shufinskiy/nba_various/tree/main/unassisted_fg) - precent unassisted fg by teams and players in season 2022/23
+10. [team_win_series](https://github.com/shufinskiy/nba_various/tree/main/team_win_series) - longest active series of wins of one team over another in the NBA
+11. [two_different_segments_season](https://github.com/shufinskiy/nba_various/tree/main/two_different_segments_season) - comparison of two parts of the season 2021/22
+12. [unassisted_fg](https://github.com/shufinskiy/nba_various/tree/main/unassisted_fg) - precent unassisted fg by teams and players in season 2022/23
