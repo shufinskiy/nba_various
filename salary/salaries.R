@@ -1,5 +1,7 @@
 `%>%` <- magrittr::`%>%`
 
+season <- '2324'
+
 team_dict <- list(
   'ATL' = c(1610612737, "Atlanta Hawks"),
   'BOS' = c(1610612738, "Boston Celtics"),
@@ -33,13 +35,15 @@ team_dict <- list(
   'WAS' = c(1610612764, "Washington Wizards")
 )
 
-df <- read.csv("./data/raw_salary_nba.csv")
+df <- read.csv(paste0("./data/raw_salary_nba", season, ".csv"))
+
+colnames(df) <- c('PLAYER', 'SEASON', 'SEASON1', 'SEASON2', 'SEASON3', 'SEASON4', 'TEAM')
 
 df1 <- df %>% 
   dplyr::tibble() %>% 
-  dplyr::select(PLAYER, X2022.23, TEAM) %>% 
-  dplyr::mutate(X2022.23 = as.integer(stringr::str_remove_all(stringr::str_remove_all(X2022.23, ","), "\\$"))) %>% 
-  dplyr::rename(SALARY = X2022.23) %>% 
+  dplyr::select(PLAYER, SEASON, TEAM) %>% 
+  dplyr::mutate(SEASON = as.integer(stringr::str_remove_all(stringr::str_remove_all(SEASON, ","), "\\$"))) %>% 
+  dplyr::rename(SALARY = SEASON) %>% 
   dplyr::arrange(TEAM, desc(SALARY)) %>% 
   dplyr::group_by(TEAM) %>% 
   dplyr::mutate(NSALARY = dplyr::row_number()) %>% 
@@ -57,7 +61,7 @@ ggplot2::ggplot(df1, ggplot2::aes(as.factor(NSALARY), SALARY))+
   ggplot2::scale_y_continuous(labels = scales::unit_format(unit = "M", scale = 1e-6)) +
   ggplot2::xlab("position on team salary cap") +
   ggplot2::ylab("salary in million dollars") +
-  ggplot2::labs(title = "Distribution salary by position in NBA team's salary",
+  ggplot2::labs(title = paste0("Distribution salary by position in NBA team's salary in season ", substr(season, 1, 2), "/", substr(season, 3, 4)),
                 caption = "DATA: hoopshype; twitter: @vshufinskiy, Telegram: @nbaatlantic") +
   ggplot2::theme(plot.title = ggplot2::element_text(hjust=0.5))
 
@@ -69,7 +73,7 @@ summary_rank <- df1 %>%
 ggplot2::ggplot(summary_rank, ggplot2::aes(forcats::fct_reorder(TEAM, SUM_RANK), SUM_RANK)) +
   ggplot2::geom_col() +
   ggplot2::ylab("Total rank") +
-  ggplot2::labs(title = "Total rank top-10 team's salary",
+  ggplot2::labs(title = paste0("Total rank top-10 team's salary in season ", substr(season, 1, 2), "/", substr(season, 3, 4)),
                 caption = "DATA: hoopshype; twitter: @vshufinskiy, Telegram: @nbaatlantic") +
   ggplot2::theme(axis.title.x = ggplot2::element_blank(),
                  plot.title = ggplot2::element_text(hjust=0.5))
@@ -97,7 +101,7 @@ salary_info_team <- function(abr_team, nba_dict=team_dict){
   patchgg <- gg1 /gg3
   patchgg <- patchgg +
     patchwork::plot_annotation(
-      title = paste0("Top 10 ", nba_dict[[abr_team]][2]," salaries"),
+      title = paste0("Top 10 ", nba_dict[[abr_team]][2]," salaries in season ", substr(season, 1, 2), "/", substr(season, 3, 4)),
       caption = "DATA: hoopshype; twitter: @vshufinskiy, Telegram: @nbaatlantic"
     ) &
     ggplot2::theme(plot.title = ggplot2::element_text(hjust=0.5)) 
@@ -113,7 +117,7 @@ salary_info_team <- function(abr_team, nba_dict=team_dict){
     gt::tab_header(gt::html(paste0(gt::html(
       paste0(gsub(">", "", gt::html(gt::local_image(paste0("./logo/", nba_dict[[abr_team]][1],".png"), height = 60))),
              ";width:60px;\" align=\"left\">")), 
-      paste0(" Top 10 players on the <b>", nba_dict[[abr_team]][2],"</b> salary cap ")))) %>% 
+      paste0(" Top 10 players <b>", nba_dict[[abr_team]][2],"</b> salary cap in season ", substr(season, 1, 2), "/", substr(season, 3, 4))))) %>% 
     gt::tab_options(table.background.color = '#f9f9f9',
                     table.border.top.color = "#36454f",
                     table.border.bottom.color = "#36454f",
@@ -124,7 +128,7 @@ salary_info_team <- function(abr_team, nba_dict=team_dict){
   pic1 <- magick::image_scale(magick::image_read("./charts/tmp_chart.png"), "x919")
   pic2 <- magick::image_read("./charts/tmp_salary.png")
   
-  magick::image_write(magick::image_append(c(pic2, pic1)), path = paste0("./charts/", tolower(abr_team),".png"), format = "png")
+  magick::image_write(magick::image_append(c(pic2, pic1)), path = paste0("./charts/", tolower(abr_team), season, ".png"), format = "png")
 }
 
 for(name in names(team_dict)){
