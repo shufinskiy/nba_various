@@ -14,3 +14,4 @@
 10. [team_win_series](https://github.com/shufinskiy/nba_various/tree/main/team_win_series) - longest active series of wins of one team over another in the NBA
 11. [two_different_segments_season](https://github.com/shufinskiy/nba_various/tree/main/two_different_segments_season) - comparison of two parts of the season 2021/22
 12. [unassisted_fg](https://github.com/shufinskiy/nba_various/tree/main/unassisted_fg) - precent unassisted fg by teams and players in season 2022/23
+13. [wins_or_lose_series](https://github.com/shufinskiy/nba_various/tree/main/wins_or_lose_series) - charts wins/losses series by season
